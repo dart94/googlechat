@@ -1,0 +1,1001 @@
+fecha,venta,vendedor,precio,producto
+2024-03-23,7467,Rhonda Crawford,953.1,Reproductor de DVD
+2024-06-29,76,Rachel Fowler,40.07,Consola de videojuegos
+2024-02-14,7168,Luis Barnes,995.69,Computadora portátil
+2024-07-17,2428,Joseph Pennington,385.08,Consola de videojuegos
+2024-02-23,2176,Eric Sutton,40.67,Monitor
+2024-01-04,8607,Mr. Victor James,304.39,Tablet
+2024-05-27,486,Scott Smith,51.69,Disco duro externo
+2024-06-16,4355,Amanda Richmond,471.31,Televisor
+2024-05-10,5446,Richard Warren,324.44,Teclado
+2024-06-15,6113,Jacob Castro,653.18,Monitor
+2024-01-11,3206,Cory Greene,795.31,Auriculares
+2024-07-24,7899,Donald Villarreal,319.6,Smartwatch
+2024-04-04,2167,Colleen Duran,296.81,Altavoz Bluetooth
+2024-01-17,3288,William Porter,688.2,Proyector
+2024-06-05,9023,Victor Murphy,593.07,Micrófono
+2024-06-07,1299,Danielle Boyd,40.09,Teléfono móvil
+2024-04-14,2024,Diane Ford,959.42,Smartwatch
+2024-07-18,5395,Katrina Horn,320.91,Monitor
+2024-04-20,9465,Susan Wright,633.53,Teclado
+2024-04-20,1889,Melinda Walters,213.24,Cámara de seguridad
+2024-03-28,831,Chelsea Melendez,186.14,Proyector
+2024-01-14,6924,Dr. Jennifer Chen DDS,610.45,Teléfono móvil
+2024-03-17,5284,Lydia Martin,40.97,Micrófono
+2024-05-30,9664,Crystal Lopez,741.94,Computadora portátil
+2024-02-09,2012,Gary Mahoney,125.13,Micrófono
+2024-07-13,4177,Stephen Porter,325.14,Micrófono
+2024-08-05,2720,Matthew Duran,407.81,Proyector
+2024-05-31,3865,James Rodriguez,986.44,Cámara de seguridad
+2024-03-05,4738,Casey Ramos,300.46,Micrófono
+2024-02-24,8287,Bryan Webb,969.58,Impresora
+2024-06-20,4803,Alexandra Mcgee,332.39,Televisor
+2024-05-15,5755,Timothy Mann,253.31,Teclado
+2024-07-24,7182,Dennis Dunn,339.32,Sistema de sonido
+2024-01-01,8957,Rebecca Collins,360.18,Monitor
+2024-01-07,5908,Thomas Flores,141.62,Mouse
+2024-04-07,7505,Mary Morales,257.0,Altavoz Bluetooth
+2024-03-27,2925,Valerie Stephenson,83.47,Micrófono
+2024-01-16,1576,John Smith,424.68,Router
+2024-01-16,7576,Nicole King PhD,525.98,Reproductor de DVD
+2024-03-31,2807,Joel Holloway,741.39,Monitor
+2024-02-10,5296,Allison Mccarthy,228.99,Teléfono móvil
+2024-07-01,1601,Angela Jimenez,564.98,Computadora portátil
+2024-04-11,7861,Sarah Williams,585.75,Televisor
+2024-05-06,2539,Kayla Barrett,163.74,Smartwatch
+2024-02-05,6105,Scott Barron,31.78,Cámara de seguridad
+2024-06-19,5126,Scott Davis,188.92,Impresora
+2024-05-27,2148,Jeffrey Carlson,754.78,Sistema de sonido
+2024-05-08,6896,Christian Wright,864.56,Altavoz Bluetooth
+2024-03-04,4262,Linda Love,593.63,Impresora
+2024-07-22,1745,Jacqueline Anderson,939.01,Micrófono
+2024-05-20,5381,Benjamin Wood,68.02,Computadora portátil
+2024-04-24,9409,Gabriel Poole,719.37,Teclado
+2024-06-09,1326,Patricia Carson,728.71,Sistema de sonido
+2024-04-09,2217,Stephanie Meadows,451.03,Auriculares
+2024-05-19,7347,Sonya Dunn,179.59,Impresora
+2024-06-24,785,Nicole Wright,941.64,Cámara
+2024-03-02,1118,Stephanie Fuller,190.69,Smartwatch
+2024-02-27,7916,Maria Wilson,803.64,Teléfono móvil
+2024-03-26,3567,Melissa White,648.37,Reproductor de DVD
+2024-01-18,2733,Debra Martin,639.25,Smartwatch
+2024-05-18,145,Ryan Dorsey,868.83,Auriculares
+2024-02-16,1094,Gregory Hines,398.48,Impresora
+2024-05-31,7838,Christopher Johnson,449.93,Reproductor de DVD
+2024-05-25,8767,Elizabeth Mccoy,111.01,Impresora
+2024-05-03,2844,Victoria Cohen,718.18,Smartwatch
+2024-04-26,1650,Joseph Davis,798.78,Disco duro externo
+2024-04-14,6554,Thomas Sherman,976.82,Cámara de seguridad
+2024-04-06,65,Robert Frank,728.72,Auriculares
+2024-04-22,8480,Michelle Rogers,654.38,Cámara de seguridad
+2024-07-05,7927,Christine Proctor,827.3,Computadora portátil
+2024-07-12,7030,Courtney Gonzalez,698.79,Impresora
+2024-06-18,8414,Chelsey Christian,725.76,Monitor
+2024-03-14,904,Stanley Gordon,150.17,Computadora portátil
+2024-06-22,107,Paul Stark,829.56,Mouse
+2024-03-11,5958,Barbara Oneal,110.06,Router
+2024-04-13,6771,Cody Williams DDS,636.64,Teclado
+2024-05-01,8270,Allison Stephenson,815.62,Router
+2024-01-23,8479,Thomas Velez,681.28,Teclado
+2024-04-01,9888,Abigail Miller,851.56,Televisor
+2024-06-10,4527,Sara Hayes,961.38,Teléfono móvil
+2024-07-18,9369,Sarah Davis,51.6,Teléfono móvil
+2024-01-27,4043,Carlos Johns,881.77,Sistema de sonido
+2024-01-19,3506,Amber Perez,878.64,Impresora
+2024-04-10,9153,Morgan Phillips,755.97,Computadora portátil
+2024-04-04,2255,Bryan Smith,966.33,Altavoz Bluetooth
+2024-07-19,2394,Hannah Davis,448.24,Impresora
+2024-06-09,4724,Thomas Anderson,991.32,Cámara
+2024-06-10,1267,Amy Patterson,666.44,Impresora
+2024-02-10,7489,Richard Williams,750.73,Tablet
+2024-07-21,1206,Adam Robinson,268.83,Sistema de sonido
+2024-03-25,8186,Rodney Williams,551.72,Sistema de sonido
+2024-06-21,9512,Miguel Mays,635.25,Cámara
+2024-08-04,6543,Danny Lopez DDS,221.76,Teclado
+2024-05-13,1236,Brian Martinez,44.78,Proyector
+2024-06-13,1003,Brian Rodriguez,698.26,Tablet
+2024-03-09,6308,Travis Williams,759.23,Reproductor de DVD
+2024-02-13,5605,Shannon Turner,424.38,Mouse
+2024-01-17,352,Jacob Henson,388.94,Teclado
+2024-03-11,5381,Troy Wilson,982.72,Router
+2024-04-07,9708,Andrew Johnson,530.34,Proyector
+2024-04-09,5456,Amanda Campbell,321.55,Sistema de sonido
+2024-04-23,6640,Elizabeth Sanford,715.97,Disco duro externo
+2024-01-19,9957,Tina Silva,512.34,Altavoz Bluetooth
+2024-04-11,4039,Eric Martinez,585.56,Sistema de sonido
+2024-02-24,7556,David Faulkner,42.44,Cámara
+2024-01-26,5082,Carol Johnson,614.81,Router
+2024-01-14,7811,Andrea Cole,417.04,Tablet
+2024-05-30,1866,Frank Turner,534.44,Televisor
+2024-07-17,2374,Sean Moore,383.48,Smartwatch
+2024-04-04,2039,Matthew Lee,12.27,Auriculares
+2024-02-11,3880,John Jackson,211.82,Computadora portátil
+2024-05-15,2016,Kenneth Potter,354.1,Disco duro externo
+2024-03-02,5929,Vanessa Kelly,765.86,Auriculares
+2024-02-04,3427,Robert Higgins,457.4,Teclado
+2024-01-26,7374,Melissa Macias,753.78,Altavoz Bluetooth
+2024-02-14,8445,Randy Hunter,777.13,Teléfono móvil
+2024-02-25,3714,Vanessa Washington,869.43,Monitor
+2024-05-23,2871,Wendy Mason,155.44,Disco duro externo
+2024-02-14,8003,Jennifer Taylor,702.54,Auriculares
+2024-06-01,8188,Jennifer Nelson,834.96,Cámara
+2024-05-05,943,Mary Hopkins,254.11,Monitor
+2024-04-09,292,Cheyenne Moon,612.77,Reproductor de DVD
+2024-07-10,9349,Amy Daniels,606.98,Sistema de sonido
+2024-02-12,8541,Gary Barton,368.68,Sistema de sonido
+2024-03-10,4745,Kelly Brown,704.66,Router
+2024-04-23,6151,Amy Myers,185.6,Monitor
+2024-04-22,3499,Kara Lewis MD,170.03,Monitor
+2024-02-05,1171,Jared Webster,637.88,Consola de videojuegos
+2024-04-24,2414,Ms. Mary Hall,878.08,Teléfono móvil
+2024-04-24,7846,Michael Rogers,519.36,Router
+2024-08-06,7878,Linda Coleman,377.43,Proyector
+2024-05-19,5865,Michelle Walker,696.04,Consola de videojuegos
+2024-07-11,2598,Christopher Mckenzie,224.84,Disco duro externo
+2024-05-27,6770,Jesse Wolfe,99.39,Impresora
+2024-06-30,1573,Darren Moore,505.19,Reproductor de DVD
+2024-03-26,3763,Jason Bauer,102.26,Proyector
+2024-06-11,3770,Albert Martinez,502.21,Tablet
+2024-06-13,6543,William Lewis,842.88,Disco duro externo
+2024-07-03,6001,Jonathan Hubbard,178.78,Disco duro externo
+2024-07-14,8009,Tara Mendoza,43.79,Consola de videojuegos
+2024-05-10,8653,James Stewart,277.72,Cámara de seguridad
+2024-03-13,2839,Gary Stephens,840.56,Router
+2024-07-21,5903,Becky Beck,324.41,Router
+2024-02-07,229,Brittany Hill,961.22,Micrófono
+2024-03-02,5822,Jessica Jackson,741.39,Reproductor de DVD
+2024-07-31,496,Sandra Smith,849.65,Impresora
+2024-01-18,4672,Kenneth Valentine,702.28,Teléfono móvil
+2024-01-12,4504,Brenda Schultz,665.56,Tablet
+2024-05-23,1724,Daniel Cole,511.61,Altavoz Bluetooth
+2024-04-23,9276,Carrie Garcia,714.14,Monitor
+2024-02-08,9615,Kyle Wilson,406.54,Televisor
+2024-02-11,5021,Gregory Sutton,114.87,Mouse
+2024-05-21,4247,Monica Henry,887.99,Disco duro externo
+2024-05-04,2375,Nicole Carter,299.07,Monitor
+2024-04-24,9784,Scott Ferguson,870.12,Proyector
+2024-05-27,6634,Matthew Marquez,195.21,Televisor
+2024-07-30,5938,Brent Berry,147.38,Auriculares
+2024-02-29,9887,Amber Sherman,805.58,Tablet
+2024-06-21,5558,Stephanie Lane,246.83,Smartwatch
+2024-07-27,7439,George Wang,748.62,Tablet
+2024-06-25,4648,Megan Tucker,314.76,Computadora portátil
+2024-03-26,7353,Brian French,204.9,Teclado
+2024-08-03,1259,Greg Ball,741.46,Mouse
+2024-03-18,1898,Robert Martin,273.81,Cámara de seguridad
+2024-04-30,6769,Madison Horton,93.81,Smartwatch
+2024-03-03,7038,Jennifer Johnson,24.23,Reproductor de DVD
+2024-08-05,3871,Gary Edwards,451.21,Impresora
+2024-01-20,5696,Chad Frost,933.5,Impresora
+2024-02-08,2241,Lisa Vaughan,320.53,Cámara
+2024-01-14,1379,Leslie Mathews,168.45,Televisor
+2024-05-11,4495,Dawn King,349.68,Micrófono
+2024-02-17,3118,Judith Forbes,989.68,Televisor
+2024-05-19,2356,Jessica Morris,897.38,Mouse
+2024-01-05,6530,Rebekah Taylor,459.27,Auriculares
+2024-05-16,509,Shannon Potter,306.45,Proyector
+2024-05-18,4512,Hannah Jacobs,731.54,Altavoz Bluetooth
+2024-03-04,2667,Beth Rivas,807.01,Smartwatch
+2024-01-21,3782,Dr. Wendy Phelps,224.19,Smartwatch
+2024-02-06,6692,Elizabeth Gillespie,636.18,Sistema de sonido
+2024-07-11,2362,Sherry Lewis,173.23,Computadora portátil
+2024-05-07,6397,Matthew Miller,991.48,Disco duro externo
+2024-06-12,5773,Catherine Miller,115.41,Mouse
+2024-01-29,6363,Danny Davis,824.97,Teclado
+2024-07-29,1170,Henry Marshall,65.86,Tablet
+2024-03-02,4082,Renee Lyons,738.38,Computadora portátil
+2024-04-20,8857,Robert Camacho,31.92,Teclado
+2024-02-18,9032,Amber Aguilar,846.6,Consola de videojuegos
+2024-04-17,4608,Tiffany Henderson,68.27,Reproductor de DVD
+2024-06-01,8977,Joshua Zimmerman,419.39,Teclado
+2024-01-09,110,Philip Humphrey,737.03,Sistema de sonido
+2024-02-27,2398,Jeffrey Davis,809.26,Teléfono móvil
+2024-05-19,9141,Karl Perez,567.5,Altavoz Bluetooth
+2024-02-28,7851,Robert Jennings,842.23,Mouse
+2024-02-04,8192,Daniel Chavez,306.03,Altavoz Bluetooth
+2024-01-17,2222,Lauren Reynolds,367.35,Cámara de seguridad
+2024-07-17,3053,Patricia Mitchell,669.25,Impresora
+2024-03-27,3390,Daniel James,293.86,Altavoz Bluetooth
+2024-06-14,4425,Tara Silva,486.17,Proyector
+2024-03-16,1933,Gina Hill,439.02,Sistema de sonido
+2024-02-18,7979,Austin Baker,551.24,Auriculares
+2024-05-06,2833,Dana Jones,874.96,Proyector
+2024-03-22,418,Larry Francis,866.81,Cámara
+2024-01-25,1840,Jose Wheeler,880.69,Mouse
+2024-04-04,1812,Brad Estrada,379.52,Reproductor de DVD
+2024-02-27,7048,Lori Lopez,385.8,Proyector
+2024-05-14,5686,Jessica Gonzalez,47.88,Teclado
+2024-06-19,5015,Brian Cook,231.86,Cámara
+2024-08-03,9456,Sandy Rich,315.5,Televisor
+2024-01-06,7617,Charles Swanson,261.07,Teclado
+2024-06-18,898,Wendy Velez,308.39,Computadora portátil
+2024-06-05,1271,Gilbert Randolph,289.8,Tablet
+2024-03-06,7597,Kyle Boyd,227.07,Computadora portátil
+2024-02-17,7611,Sarah Rice,695.11,Micrófono
+2024-05-23,489,Danielle Hammond,280.44,Teclado
+2024-03-23,3219,Tricia Wade,936.92,Sistema de sonido
+2024-01-21,8189,Tara Diaz,644.44,Monitor
+2024-03-30,7672,Shannon Ruiz MD,96.73,Teclado
+2024-03-28,1637,Bethany Barker,755.21,Auriculares
+2024-07-12,1959,Benjamin Reyes,23.91,Televisor
+2024-06-26,3150,Alex Paul,810.33,Cámara
+2024-06-26,1716,Kevin Schneider,910.92,Computadora portátil
+2024-01-17,850,Andrea Hudson,271.1,Micrófono
+2024-03-23,1855,Megan Barber,690.32,Computadora portátil
+2024-04-15,7520,Tiffany Robinson,451.16,Auriculares
+2024-05-01,7820,Andrew Lin,363.79,Cámara de seguridad
+2024-07-05,4368,Brandon Neal,309.3,Micrófono
+2024-01-01,3845,William Rodriguez,339.79,Teclado
+2024-03-23,9723,Curtis Merritt,619.08,Cámara
+2024-07-21,8427,Harold Miles,409.59,Teclado
+2024-02-17,6238,Kevin Cruz DVM,759.7,Micrófono
+2024-03-27,4843,Teresa Morrison,219.78,Impresora
+2024-04-25,4730,Breanna Martin,596.09,Auriculares
+2024-06-25,9152,Alexandria Hicks,682.04,Cámara de seguridad
+2024-07-11,6154,Christine Martinez,974.64,Micrófono
+2024-04-26,2414,Lauren Stokes,51.23,Auriculares
+2024-06-12,3324,Keith Brown,496.44,Teléfono móvil
+2024-06-04,3374,Jessica Freeman,949.02,Disco duro externo
+2024-02-09,2467,Christopher Moore,438.03,Teléfono móvil
+2024-02-03,4579,Mr. Kenneth Kim,572.4,Reproductor de DVD
+2024-06-08,7631,Christina Bradshaw,659.51,Televisor
+2024-03-29,5722,Brian Howard,654.4,Cámara
+2024-03-28,6178,Melinda Wheeler,690.08,Computadora portátil
+2024-03-01,2260,Jessica Lucas,366.69,Televisor
+2024-02-16,4643,Angela Bush,124.13,Consola de videojuegos
+2024-03-25,3349,Laura White,518.07,Teclado
+2024-07-11,6703,Emily Bradford,480.55,Altavoz Bluetooth
+2024-01-20,1097,James Hubbard,261.32,Mouse
+2024-04-28,7514,Mary Holt,703.5,Micrófono
+2024-06-26,9346,Keith Griffith,879.56,Cámara de seguridad
+2024-02-17,3088,Stephen Contreras,462.32,Tablet
+2024-07-07,4812,Scott Thomas,728.69,Cámara de seguridad
+2024-01-30,2668,Taylor Chung,867.25,Router
+2024-04-29,8532,Brooke Miller,392.47,Computadora portátil
+2024-05-06,5675,John Young,64.67,Cámara
+2024-06-16,4766,Tiffany Flores,613.62,Auriculares
+2024-06-23,2391,Margaret Morris,313.46,Micrófono
+2024-02-19,3111,April Thomas,660.9,Cámara de seguridad
+2024-01-24,4340,Robert Stevens,942.59,Smartwatch
+2024-07-27,1425,Laura Shepherd,337.08,Proyector
+2024-01-15,6554,Nancy King,466.27,Cámara
+2024-06-17,7519,Sarah Campbell,456.91,Auriculares
+2024-01-04,7343,Ryan Arias,794.42,Auriculares
+2024-04-30,2948,Lisa Vazquez,773.62,Computadora portátil
+2024-01-21,3022,Theresa Jordan,90.56,Impresora
+2024-04-14,4906,Terry Ward,144.11,Mouse
+2024-02-09,9862,William Watson,437.51,Proyector
+2024-06-30,6505,Brittany Hampton,470.78,Reproductor de DVD
+2024-03-20,2987,Amber Summers,60.17,Mouse
+2024-05-05,2242,Mrs. Melanie Diaz,176.84,Sistema de sonido
+2024-04-17,5209,Antonio Mccarty,291.94,Smartwatch
+2024-02-01,1165,Robert Brown,411.6,Disco duro externo
+2024-03-05,4186,Timothy Stanton,259.74,Smartwatch
+2024-07-11,1566,Ernest Williams,750.6,Computadora portátil
+2024-04-26,9488,John Nguyen,454.56,Cámara
+2024-06-04,162,Erik Edwards,160.58,Sistema de sonido
+2024-03-24,4911,Mark Harris,620.24,Mouse
+2024-05-30,6979,Timothy Rowe,695.5,Monitor
+2024-05-21,5332,Shawn Gilmore,182.8,Altavoz Bluetooth
+2024-03-05,3496,Rachel Martin,523.02,Proyector
+2024-07-08,4643,Richard Rivera,715.64,Proyector
+2024-02-07,3189,Debbie Parker,103.73,Cámara
+2024-06-05,6186,James Brown,860.23,Impresora
+2024-01-08,2363,Shannon Martin,485.96,Consola de videojuegos
+2024-05-17,7191,Madison Bennett,587.77,Sistema de sonido
+2024-04-19,8715,Stacie Palmer,477.36,Cámara
+2024-08-05,1891,Christopher Clark,668.59,Reproductor de DVD
+2024-06-14,7190,Amanda Landry PhD,71.32,Micrófono
+2024-01-02,508,Sandra Leach,442.16,Impresora
+2024-07-30,6237,Joshua Young,693.92,Sistema de sonido
+2024-06-10,7840,Melinda Gray,897.15,Disco duro externo
+2024-07-22,8552,Keith Pugh,53.52,Reproductor de DVD
+2024-02-12,6143,Charles Daniels,929.47,Tablet
+2024-01-26,4495,Tami Phillips,720.76,Mouse
+2024-04-08,2302,Danny Stewart,819.51,Impresora
+2024-07-26,9411,Juan Compton,88.16,Disco duro externo
+2024-03-09,9524,Cynthia Miller,768.55,Proyector
+2024-02-12,2875,Connie Harris,38.06,Disco duro externo
+2024-04-05,5611,Gary Rose,691.18,Micrófono
+2024-07-05,288,Amanda Fletcher,759.66,Teclado
+2024-01-08,5057,David Vaughan,448.89,Teclado
+2024-08-01,1780,Pamela Holmes,529.66,Cámara de seguridad
+2024-05-30,4332,Jordan Alexander,872.66,Reproductor de DVD
+2024-04-20,9986,Brent King,21.7,Impresora
+2024-06-06,1646,Becky Bright,484.22,Router
+2024-08-04,3989,Mark Brown,655.66,Smartwatch
+2024-05-15,1391,Kristen Russo,296.06,Router
+2024-07-05,8707,Andrew Skinner,293.34,Consola de videojuegos
+2024-03-11,7399,Laura Davis,829.15,Teléfono móvil
+2024-02-28,1061,Erin Espinoza,77.96,Teclado
+2024-04-06,434,Matthew Miller,818.3,Televisor
+2024-01-31,5086,Richard Mills,521.81,Consola de videojuegos
+2024-06-09,4521,Christine Rojas,73.76,Router
+2024-02-07,9505,Cole Callahan,711.39,Impresora
+2024-07-11,953,William Hall,955.3,Mouse
+2024-07-28,4806,Mrs. Amanda Moore MD,569.8,Teléfono móvil
+2024-06-10,2178,Sharon Conner,548.35,Tablet
+2024-02-27,4397,Becky Reyes,454.04,Mouse
+2024-02-29,6984,Kristen Warren,435.53,Reproductor de DVD
+2024-01-29,1850,Geoffrey Hall,15.09,Micrófono
+2024-02-21,2378,Laura Scott,123.36,Tablet
+2024-07-01,1331,Nicholas Ruiz,154.97,Proyector
+2024-05-21,3185,Caitlin Andrews,959.03,Computadora portátil
+2024-07-06,957,Tammy Thomas,144.01,Televisor
+2024-06-20,8359,Lisa Lee,101.02,Computadora portátil
+2024-06-03,3440,Paige Brown,520.85,Teléfono móvil
+2024-03-24,916,Carl Howell,907.84,Reproductor de DVD
+2024-02-03,6393,Joseph Saunders,669.78,Micrófono
+2024-02-20,4892,William Donaldson,100.9,Auriculares
+2024-05-16,6306,Crystal Parker,717.6,Micrófono
+2024-01-19,6880,David Day,380.17,Monitor
+2024-07-02,6102,Matthew Townsend,362.42,Monitor
+2024-04-18,1741,Amy Humphrey,721.89,Micrófono
+2024-07-08,7252,Angela Martin,592.99,Consola de videojuegos
+2024-04-30,5473,John Perez,706.78,Router
+2024-04-09,7862,Susan Maxwell,770.24,Monitor
+2024-06-14,7473,Cory Burns,650.33,Teclado
+2024-06-02,2267,Carlos Stewart,812.18,Micrófono
+2024-07-12,7669,Pamela Walker,899.53,Router
+2024-04-24,3136,Megan Floyd,560.08,Teclado
+2024-02-14,277,Carla Hampton,853.24,Mouse
+2024-07-26,1303,Rebecca Scott,771.28,Impresora
+2024-03-20,5047,Wendy Salazar,44.08,Mouse
+2024-03-15,607,Angela Simmons,88.37,Cámara de seguridad
+2024-01-31,1146,William Gibson,145.1,Mouse
+2024-02-23,2565,Meredith Boyd,449.27,Teléfono móvil
+2024-02-25,2372,Jordan Kirk,287.22,Cámara de seguridad
+2024-01-14,6312,Elizabeth Richardson,394.48,Teléfono móvil
+2024-04-23,8311,Dennis Davenport,771.64,Micrófono
+2024-02-14,935,William Moss,881.06,Sistema de sonido
+2024-01-23,5136,Jordan Dalton,259.35,Disco duro externo
+2024-03-05,2230,Summer Brown,769.27,Micrófono
+2024-04-24,9715,Samantha Nichols,58.4,Computadora portátil
+2024-07-28,1257,Cory Burch,444.19,Micrófono
+2024-07-18,7045,Emily Nelson,316.63,Smartwatch
+2024-02-15,834,Hannah Armstrong,717.18,Impresora
+2024-02-22,5540,Mary Woodward,652.18,Micrófono
+2024-02-02,2572,Mr. Jack Friedman Jr.,156.4,Monitor
+2024-02-01,7378,Walter Johnson,185.17,Auriculares
+2024-07-22,4532,Amy Skinner,639.12,Tablet
+2024-02-29,8644,Jose Matthews,650.26,Cámara
+2024-02-11,733,Jennifer Neal,877.15,Teléfono móvil
+2024-03-07,7026,Sandra Garcia,74.03,Cámara de seguridad
+2024-03-01,1398,Cheryl Collins,179.98,Reproductor de DVD
+2024-03-10,635,Donna Rivera,529.3,Mouse
+2024-07-28,2789,Alexander Fowler,193.64,Mouse
+2024-08-04,1078,Adrian Jones,375.73,Teclado
+2024-06-12,9208,Cheryl Porter,273.72,Monitor
+2024-01-15,6753,Nicholas Green,592.98,Consola de videojuegos
+2024-07-28,5147,Stacey Alvarez,234.56,Auriculares
+2024-01-06,3228,Lawrence Coleman,169.84,Disco duro externo
+2024-07-25,8000,Jeffery Fisher,733.71,Impresora
+2024-06-07,2926,Mark Ramirez,215.88,Computadora portátil
+2024-03-30,8171,Kaitlin Rodriguez,305.49,Tablet
+2024-05-29,6704,Andrew Smith,467.71,Consola de videojuegos
+2024-02-18,4528,David Green,641.44,Disco duro externo
+2024-01-12,4020,Shannon Fuentes,170.93,Televisor
+2024-07-31,4452,Jason Moreno,402.23,Micrófono
+2024-02-25,8337,Chad Wiggins,957.4,Computadora portátil
+2024-07-06,1898,Nicole Tate,286.09,Smartwatch
+2024-05-08,5771,Eric Rodriguez,299.15,Teléfono móvil
+2024-06-13,5699,Cheyenne Smith,818.32,Smartwatch
+2024-02-09,680,Ryan Davis,943.13,Mouse
+2024-07-13,6629,Deanna Kelley,157.58,Smartwatch
+2024-07-17,7780,Samuel Harris,654.14,Disco duro externo
+2024-05-06,2244,Nicholas Howell,299.09,Televisor
+2024-05-13,8205,Anna Vasquez,955.84,Router
+2024-04-15,7167,Christina Bowman,552.41,Tablet
+2024-07-24,2399,David Wolf,179.9,Sistema de sonido
+2024-07-21,2617,Sierra Williams,450.72,Teléfono móvil
+2024-04-21,5320,John Myers,938.3,Router
+2024-02-12,9243,Kendra Lambert DDS,91.17,Tablet
+2024-04-05,7341,Rebecca Clayton,752.39,Mouse
+2024-02-11,2118,Timothy Conley,731.77,Cámara
+2024-06-08,3684,Matthew Parsons,141.03,Altavoz Bluetooth
+2024-07-01,3120,Robert White,411.77,Altavoz Bluetooth
+2024-06-11,1317,Marcus Perkins,396.82,Auriculares
+2024-08-02,3221,Emily Johnson,740.35,Micrófono
+2024-02-19,18,Miss Patricia Craig,108.15,Disco duro externo
+2024-03-06,2659,Jeremy Gomez,227.16,Consola de videojuegos
+2024-04-17,9120,Lisa Werner,721.88,Teclado
+2024-06-27,9770,David Wilson,725.92,Disco duro externo
+2024-03-14,7833,Jill Robbins DDS,999.66,Monitor
+2024-05-27,2691,Kyle Bailey,365.74,Impresora
+2024-04-10,3432,Wendy Johnson,696.48,Cámara de seguridad
+2024-02-13,5158,Roy Walton,123.57,Reproductor de DVD
+2024-03-02,3388,Robyn Carr,135.51,Cámara
+2024-02-29,677,Jodi Jacobs,654.19,Smartwatch
+2024-05-12,9660,Patrick Freeman,287.47,Teléfono móvil
+2024-03-11,1870,Sandra Mann,630.74,Sistema de sonido
+2024-03-08,3422,Mrs. Michelle Mayo,48.81,Impresora
+2024-02-28,417,Sean Chang,446.85,Auriculares
+2024-06-16,9701,Justin Malone,989.65,Computadora portátil
+2024-02-18,6785,Erik Campbell,854.59,Auriculares
+2024-03-26,4736,Tracy Martin,671.85,Teléfono móvil
+2024-07-20,9999,Brooke Hamilton DDS,463.01,Altavoz Bluetooth
+2024-06-29,8422,Mark Horne,945.53,Impresora
+2024-07-25,6512,Nathaniel Mercado,991.4,Computadora portátil
+2024-01-07,3065,Robin Wright,976.56,Proyector
+2024-05-15,3537,Misty Chavez,186.2,Tablet
+2024-04-17,4947,Joseph Owen,864.59,Micrófono
+2024-07-06,5243,Johnathan Ruiz,477.37,Router
+2024-07-02,2885,Miss Debbie West,228.73,Cámara
+2024-07-13,1751,Kayla York,421.7,Sistema de sonido
+2024-04-06,8224,Mr. Benjamin Leon,584.48,Proyector
+2024-03-09,2742,Ashley Chambers,281.43,Sistema de sonido
+2024-06-29,7391,Sandra Cruz,88.69,Router
+2024-01-05,7204,Karen Lopez MD,435.38,Sistema de sonido
+2024-02-20,9954,Ashley Walls,781.44,Micrófono
+2024-03-25,2014,Taylor Lopez,90.74,Televisor
+2024-06-22,9475,Tyler Estrada,345.77,Impresora
+2024-04-11,638,Rebecca Brewer,84.15,Cámara
+2024-06-05,4172,Ivan Miranda,922.49,Sistema de sonido
+2024-07-02,6567,Victoria Hayes MD,910.46,Auriculares
+2024-01-06,346,Meghan Scott,812.41,Consola de videojuegos
+2024-07-31,1,Kevin Wilson,130.23,Altavoz Bluetooth
+2024-02-18,7231,Taylor Fisher,376.93,Televisor
+2024-04-24,4998,Joshua Taylor,294.34,Monitor
+2024-03-23,1949,Elizabeth Taylor,216.46,Micrófono
+2024-07-02,8028,Carmen Mccall,290.31,Teléfono móvil
+2024-05-22,8862,Taylor Brewer,36.63,Computadora portátil
+2024-03-04,2347,Christopher Brown,719.78,Altavoz Bluetooth
+2024-05-24,8981,Frank Guzman,75.35,Reproductor de DVD
+2024-06-12,9771,Mr. Colin Johnson,320.75,Auriculares
+2024-02-24,6538,Linda Green,70.74,Proyector
+2024-03-15,4726,Sarah Schroeder,500.67,Disco duro externo
+2024-03-11,8044,Sandra Holland,547.59,Smartwatch
+2024-07-06,3732,Bobby Mcbride,985.06,Altavoz Bluetooth
+2024-05-08,5609,Lisa Fowler,261.96,Disco duro externo
+2024-05-29,6544,James Moore,763.84,Reproductor de DVD
+2024-03-03,6630,Gregory Wong,65.81,Televisor
+2024-01-03,7893,Dale Moreno,400.96,Cámara de seguridad
+2024-06-02,5233,James Gomez,366.29,Smartwatch
+2024-02-28,2242,Joseph George,90.23,Smartwatch
+2024-04-30,3862,Stephen Baldwin,42.92,Smartwatch
+2024-04-13,7414,Joseph Gonzalez,308.52,Teléfono móvil
+2024-06-26,2264,Timothy Cook,547.44,Cámara de seguridad
+2024-02-01,1027,Christopher Roberts,90.78,Reproductor de DVD
+2024-07-31,9460,Jill Valencia,939.45,Disco duro externo
+2024-04-20,4203,Karen Noble,42.53,Sistema de sonido
+2024-01-05,619,Michele Roberts,159.36,Router
+2024-06-20,3555,Krista Garcia,81.54,Proyector
+2024-05-20,9920,Natasha Rogers,719.87,Televisor
+2024-03-26,5320,Lisa Miller,866.09,Tablet
+2024-06-05,1359,Mark Harrison,814.43,Smartwatch
+2024-03-28,2148,Deborah Collins,85.76,Monitor
+2024-08-05,494,Erin Carr,122.59,Mouse
+2024-01-04,8597,Kathryn Alexander,404.24,Sistema de sonido
+2024-07-04,1367,Sheena Willis,689.31,Smartwatch
+2024-01-01,6693,Bradley Avery,573.39,Router
+2024-05-14,1361,Yvette Ramsey,789.91,Auriculares
+2024-01-05,3922,Andrew Payne,29.44,Mouse
+2024-04-12,4041,Hannah Baker,919.61,Altavoz Bluetooth
+2024-06-18,292,Gregory Valentine,816.62,Teclado
+2024-03-16,5910,Kimberly Harrison,179.85,Teléfono móvil
+2024-03-08,6634,Jennifer Hickman,92.2,Proyector
+2024-07-19,1507,Noah Carr,25.52,Cámara
+2024-03-17,8005,Ms. Karen Allen DVM,763.8,Mouse
+2024-02-27,6958,Lee Harmon,763.79,Disco duro externo
+2024-05-25,3838,Leslie Russell,408.39,Cámara de seguridad
+2024-04-15,1749,Sarah Luna,347.41,Cámara de seguridad
+2024-04-08,8895,Ruth Ramos,219.96,Computadora portátil
+2024-01-02,1473,Crystal Stewart,342.52,Proyector
+2024-03-13,983,Daniel Gomez,512.95,Consola de videojuegos
+2024-06-08,559,Elizabeth Robinson,879.26,Teclado
+2024-05-11,5252,Francisco Singh,491.26,Micrófono
+2024-03-08,2750,Brian Thompson,248.09,Tablet
+2024-06-25,1379,Krista Carter,413.86,Tablet
+2024-04-11,6212,Jon Turner,118.74,Monitor
+2024-06-21,4341,Daniel Cruz,378.7,Proyector
+2024-01-25,9858,Zachary Watkins,524.89,Micrófono
+2024-03-13,261,Billy Medina,691.98,Disco duro externo
+2024-06-08,8170,Jade Harris,357.6,Smartwatch
+2024-06-19,4031,Joanna Golden,536.26,Impresora
+2024-05-22,8875,Caleb Macdonald,691.28,Impresora
+2024-05-14,2719,Tabitha Bailey,560.6,Altavoz Bluetooth
+2024-05-15,8929,Marie Chung,702.0,Altavoz Bluetooth
+2024-03-12,7649,Steven Oneal,86.43,Teclado
+2024-02-09,2359,Marc Bailey,684.09,Mouse
+2024-06-26,7421,Donna Carr,906.69,Consola de videojuegos
+2024-07-29,7280,Michael Wilson,853.29,Cámara de seguridad
+2024-06-30,8324,Tyler Solomon,434.35,Consola de videojuegos
+2024-07-13,9600,Daniel Scott,515.58,Altavoz Bluetooth
+2024-01-26,3395,Stephen Madden,310.93,Consola de videojuegos
+2024-02-04,3931,Norma Lam,695.63,Altavoz Bluetooth
+2024-01-09,6359,Aaron Gibson,399.33,Reproductor de DVD
+2024-04-27,8059,Lori Barry,141.41,Altavoz Bluetooth
+2024-01-22,4887,Thomas Bates,299.53,Teléfono móvil
+2024-06-28,3499,Anna Miller,86.1,Proyector
+2024-06-29,2418,Evan Bernard,527.23,Televisor
+2024-05-13,223,Jonathan Mcdowell,954.45,Cámara
+2024-01-02,1774,Jared Bennett,312.19,Mouse
+2024-05-11,9874,Erica Marshall,20.54,Micrófono
+2024-04-13,4570,George Bolton,497.22,Computadora portátil
+2024-07-20,1056,Paula Frazier,436.57,Televisor
+2024-02-15,5189,Claire Guzman,741.94,Altavoz Bluetooth
+2024-04-23,1517,Jacob Flowers,504.51,Tablet
+2024-05-10,3633,Ryan Joyce,713.34,Teclado
+2024-06-30,918,Amy Thomas,729.96,Monitor
+2024-08-06,1325,Martin Cross,604.5,Consola de videojuegos
+2024-02-24,2435,Linda Lam,219.91,Televisor
+2024-01-25,2386,Matthew Stone,445.4,Sistema de sonido
+2024-06-17,2114,Lauren Grant,394.2,Disco duro externo
+2024-02-16,6863,Charles Wilson,989.74,Sistema de sonido
+2024-07-13,1860,Kristen Walsh,190.2,Router
+2024-01-30,83,Kristin Dalton,320.83,Auriculares
+2024-01-21,9518,Jonathan Mills,101.87,Mouse
+2024-05-10,1222,Virginia Williams,521.33,Cámara de seguridad
+2024-07-09,6720,Michael Newman,708.17,Teclado
+2024-02-13,7565,Diamond Ramirez,226.22,Disco duro externo
+2024-02-16,7792,Alexis Hart,788.77,Computadora portátil
+2024-07-29,948,Mason Crawford,645.75,Smartwatch
+2024-06-23,3453,Deborah Herrera,974.64,Mouse
+2024-06-18,8567,Henry Blair,881.12,Tablet
+2024-05-26,2943,Michael Hill,675.12,Altavoz Bluetooth
+2024-03-26,1043,Alyssa Price,725.32,Teclado
+2024-06-01,3880,Jeffrey Wagner,804.73,Televisor
+2024-03-12,7036,Mary Olsen,431.56,Teléfono móvil
+2024-03-12,2019,Mary Ford,382.41,Proyector
+2024-05-22,6955,Ryan Morrison,322.66,Cámara de seguridad
+2024-06-13,2111,Fernando Moses,521.23,Tablet
+2024-02-29,8140,Scott Mcintyre,293.71,Micrófono
+2024-02-21,6807,Kimberly Dickerson,679.27,Monitor
+2024-06-13,2462,Leslie Smith,305.06,Disco duro externo
+2024-06-10,6470,Michael White,735.84,Altavoz Bluetooth
+2024-02-10,1422,Jeremiah Johnson,190.29,Tablet
+2024-02-11,1179,Zachary Rodriguez,843.22,Altavoz Bluetooth
+2024-04-17,1752,Roberta Powell,401.34,Tablet
+2024-01-25,8440,James Walters,737.02,Smartwatch
+2024-01-20,1556,Jeffrey Wright,729.18,Disco duro externo
+2024-02-29,6162,Paul Flores,998.87,Altavoz Bluetooth
+2024-04-27,574,Mike White,526.91,Disco duro externo
+2024-07-05,3414,Shawn Wilson,93.77,Proyector
+2024-04-08,2384,Catherine Weaver,218.04,Monitor
+2024-05-19,3799,Ryan Butler,174.42,Teléfono móvil
+2024-07-21,1305,Jason Powers,501.57,Impresora
+2024-05-10,8977,Amanda Cox,738.24,Mouse
+2024-05-09,5710,Laurie Smith,731.13,Consola de videojuegos
+2024-04-08,9802,Jennifer Rosales,961.46,Smartwatch
+2024-01-25,3586,Lisa Brown,796.18,Proyector
+2024-01-18,4065,Linda Scott,301.21,Mouse
+2024-07-23,5824,Claire Myers,26.16,Teclado
+2024-02-04,4132,Paul Morris,306.04,Router
+2024-06-14,4689,Hunter Mclaughlin,521.91,Altavoz Bluetooth
+2024-02-24,8210,Michelle Gibson,927.08,Auriculares
+2024-01-30,6773,Robert Perez,702.01,Cámara de seguridad
+2024-02-08,2792,Kristen Parker,969.09,Televisor
+2024-01-03,1017,Lindsey Suarez,527.79,Teclado
+2024-03-30,357,Janet Greer,430.84,Proyector
+2024-07-27,2206,Roy Nichols,920.03,Cámara
+2024-04-18,8419,Rebecca Ferguson,103.69,Cámara
+2024-01-31,1873,Blake Tucker,69.35,Mouse
+2024-05-22,8357,Paige Stein,28.07,Tablet
+2024-01-20,2562,David Turner,183.31,Altavoz Bluetooth
+2024-07-07,2696,Julie Patterson,483.74,Consola de videojuegos
+2024-05-25,8333,Kevin Meyers,28.12,Micrófono
+2024-02-19,3872,Bonnie Austin,283.29,Sistema de sonido
+2024-01-17,4430,Samantha Hernandez,577.4,Consola de videojuegos
+2024-02-01,5980,Andrew Thomas,410.18,Consola de videojuegos
+2024-04-02,4888,Gary Brown,308.27,Mouse
+2024-02-10,9368,Sean Hicks,455.07,Impresora
+2024-01-07,8046,Mark West,334.49,Router
+2024-02-09,6973,William Esparza,96.32,Computadora portátil
+2024-03-19,9957,Brian Chan,902.06,Cámara
+2024-03-02,8429,Amy Juarez,93.63,Impresora
+2024-06-04,1621,Lindsey Daniel,933.59,Teclado
+2024-01-15,3029,Maria Doyle,343.19,Sistema de sonido
+2024-06-18,5652,Taylor Perez,798.72,Altavoz Bluetooth
+2024-05-30,2756,Heather Thornton,629.58,Tablet
+2024-03-05,9647,John Brady,161.2,Smartwatch
+2024-03-11,3943,Mrs. Debbie Young,853.04,Cámara de seguridad
+2024-05-07,5277,Daniel Ellis,260.78,Reproductor de DVD
+2024-02-26,8780,Christine Frye,546.99,Tablet
+2024-03-02,1816,Sheila Johnson,828.78,Mouse
+2024-01-22,4732,Casey Nelson,920.89,Proyector
+2024-03-09,1833,Manuel Brown,325.44,Cámara de seguridad
+2024-01-21,8553,Patty Cole,299.71,Teléfono móvil
+2024-07-05,5642,Glenn Davis,998.11,Micrófono
+2024-06-19,1932,Larry Brown,945.04,Tablet
+2024-07-21,6595,Nicole Gallagher,543.2,Altavoz Bluetooth
+2024-07-27,1693,Teresa Garner,908.17,Computadora portátil
+2024-06-29,1723,Stephanie Caldwell,812.59,Altavoz Bluetooth
+2024-03-31,9700,Jamie Burch,89.66,Altavoz Bluetooth
+2024-07-31,1971,Grant Alvarado,458.95,Smartwatch
+2024-06-12,2838,Vicki Benton,552.65,Smartwatch
+2024-05-15,6450,Taylor Garcia,246.07,Reproductor de DVD
+2024-01-07,6558,Amanda Bradshaw,464.27,Smartwatch
+2024-01-25,4126,Jennifer Lewis,904.6,Impresora
+2024-01-08,3100,Laura Lindsey,428.03,Televisor
+2024-04-23,729,Christopher Johnson,953.02,Router
+2024-07-15,2110,Kim Woodward,781.23,Impresora
+2024-06-12,8150,Kenneth Horn,171.32,Auriculares
+2024-04-15,4034,Angel Wyatt,612.21,Proyector
+2024-07-26,5894,Louis Bishop,795.58,Router
+2024-05-17,7748,Lisa Moore,651.21,Micrófono
+2024-07-12,205,Shannon Mckay,766.25,Consola de videojuegos
+2024-05-22,7264,Madison Brown,21.4,Disco duro externo
+2024-05-03,6184,Richard Zuniga,187.4,Computadora portátil
+2024-02-09,4379,Amanda Juarez,322.37,Sistema de sonido
+2024-06-29,3391,Timothy Davis,392.86,Altavoz Bluetooth
+2024-03-25,5588,Pamela Fox,489.49,Mouse
+2024-06-17,906,Kristine Estrada,191.6,Altavoz Bluetooth
+2024-05-19,7176,Vincent Kelly,949.21,Consola de videojuegos
+2024-05-21,8014,Breanna Hicks,109.14,Monitor
+2024-05-10,453,Daniel Oliver,780.96,Computadora portátil
+2024-03-13,6720,Robert Park,985.16,Smartwatch
+2024-04-12,4374,Andrew Crane,45.11,Impresora
+2024-04-19,589,Amanda Johnson,847.9,Computadora portátil
+2024-05-08,1915,Kimberly Flores,553.02,Consola de videojuegos
+2024-01-01,3195,Sean Peterson,699.62,Smartwatch
+2024-02-11,9396,Jonathan Lopez,187.18,Computadora portátil
+2024-03-08,8169,Paige Compton,416.12,Cámara de seguridad
+2024-02-18,7679,Anna Rivera,657.76,Altavoz Bluetooth
+2024-04-07,3643,Elaine Pittman,623.9,Cámara
+2024-02-04,1378,Katelyn Wolfe,729.49,Reproductor de DVD
+2024-01-25,2576,Megan Sanchez,391.8,Monitor
+2024-08-03,5323,Christopher Terry,88.55,Cámara
+2024-05-15,8601,Steven Kent,220.47,Tablet
+2024-04-03,276,Kathy Williams,699.6,Teléfono móvil
+2024-05-08,9759,Jeremy Washington,716.3,Tablet
+2024-04-07,3157,Rebecca Rice,322.36,Impresora
+2024-05-08,8145,Ronald Contreras,434.43,Mouse
+2024-04-04,7157,Tina Mccoy,404.33,Disco duro externo
+2024-02-21,7866,Travis Goodman,433.5,Cámara
+2024-07-04,5577,Christina Graham,230.76,Cámara
+2024-05-17,4519,Kristen Wright,406.89,Altavoz Bluetooth
+2024-01-21,9528,Jessica Rojas,394.97,Impresora
+2024-01-26,5242,Mr. Andrew Mcknight,473.92,Tablet
+2024-06-04,8863,Joel Ortiz,760.44,Reproductor de DVD
+2024-04-03,1199,Keith Torres,744.46,Router
+2024-03-16,1495,Andrew Clarke,190.46,Micrófono
+2024-06-22,4177,Craig Stewart,10.78,Monitor
+2024-02-18,7130,Cassandra Simmons,394.56,Proyector
+2024-06-01,8922,Kara Cummings,143.64,Teclado
+2024-05-15,7451,James Turner,559.45,Altavoz Bluetooth
+2024-05-31,5853,Nicholas Rivera,275.97,Auriculares
+2024-07-18,4006,Ryan Fisher,885.07,Impresora
+2024-02-06,9911,Darren Joseph,856.12,Disco duro externo
+2024-05-27,6525,Jason Hunter,760.51,Cámara de seguridad
+2024-03-24,6367,Daniel Mcintyre MD,400.46,Mouse
+2024-07-04,3250,Marcus Huang,217.54,Tablet
+2024-07-14,2476,Tyler Clark,193.87,Auriculares
+2024-03-11,8175,Mr. Austin Collins,584.88,Sistema de sonido
+2024-03-22,4627,Christopher Rodriguez,136.21,Televisor
+2024-08-02,6820,Lee Foster,99.45,Micrófono
+2024-02-23,3213,Betty Boyd,406.58,Televisor
+2024-01-31,6429,Sydney Frazier,829.55,Disco duro externo
+2024-07-24,53,Benjamin Davis,747.82,Disco duro externo
+2024-02-16,7180,Maurice Gonzales,989.67,Disco duro externo
+2024-06-26,2343,Catherine Mendez,484.32,Reproductor de DVD
+2024-01-29,657,Diana Gordon,307.31,Cámara
+2024-04-13,7305,Christopher Ruiz PhD,761.43,Consola de videojuegos
+2024-07-03,8171,Christopher Wilcox,242.09,Altavoz Bluetooth
+2024-03-27,8605,Robert Levy,895.32,Proyector
+2024-03-28,5746,Debbie Nelson,493.43,Impresora
+2024-01-05,1906,Stuart Bell,127.22,Disco duro externo
+2024-02-13,3097,Joanna Frazier,491.52,Sistema de sonido
+2024-03-18,5901,David Pena,894.79,Teléfono móvil
+2024-07-22,4915,Jeff Flowers,832.88,Teléfono móvil
+2024-01-15,1353,Mark Evans,92.39,Monitor
+2024-06-15,6883,Eric Kennedy,392.89,Sistema de sonido
+2024-01-14,2143,Nicole Christensen,926.73,Auriculares
+2024-03-22,8391,Karen Wiggins,722.58,Televisor
+2024-03-30,7095,Lori Perez,854.08,Micrófono
+2024-03-01,4771,Patricia Klein,356.44,Disco duro externo
+2024-01-08,8625,Holly Long,977.1,Smartwatch
+2024-03-30,1743,Diana Parsons,697.51,Micrófono
+2024-04-21,6474,Michelle Hoffman,997.77,Auriculares
+2024-05-20,1898,Sheri Snyder,121.92,Disco duro externo
+2024-06-07,7880,Eric Mora,249.26,Altavoz Bluetooth
+2024-07-16,98,David Johnson,715.13,Smartwatch
+2024-04-02,9458,Joshua Oconnor,219.71,Sistema de sonido
+2024-05-30,1200,Jacob Russell,322.29,Proyector
+2024-07-23,7622,Michele Cantu,502.43,Impresora
+2024-04-27,2346,James Lawrence,412.53,Micrófono
+2024-07-11,2611,Molly Mitchell,116.32,Router
+2024-04-20,8257,Molly Hernandez,19.99,Impresora
+2024-04-24,7905,Heidi Ortiz,805.34,Tablet
+2024-01-11,3697,Yolanda Guzman,467.81,Sistema de sonido
+2024-04-14,1033,Kurt Hall,757.61,Micrófono
+2024-05-26,6280,Carol Santiago,68.72,Disco duro externo
+2024-02-23,6628,Craig Todd,604.42,Teléfono móvil
+2024-05-25,7859,Andrew Martin,163.46,Teclado
+2024-05-10,3154,Christopher Tate,557.25,Cámara
+2024-07-23,4921,Jason Sanchez,734.5,Consola de videojuegos
+2024-02-19,1560,Michael Walker,997.72,Auriculares
+2024-07-28,6820,Christopher Martinez,407.61,Teclado
+2024-07-21,6948,Timothy Ross,317.43,Teléfono móvil
+2024-03-18,4404,Alexander Rogers,694.47,Altavoz Bluetooth
+2024-03-10,2352,Jennifer Brooks,530.14,Consola de videojuegos
+2024-07-06,5977,Matthew Collier,475.59,Router
+2024-05-28,9957,Nicholas Patterson,27.36,Cámara
+2024-05-30,600,Scott Smith,697.77,Televisor
+2024-01-28,4969,Timothy Davis,970.45,Proyector
+2024-05-04,3,David Mcmahon,475.23,Auriculares
+2024-05-04,5894,Christian Daniel,420.64,Televisor
+2024-07-07,2021,Jessica Reed,301.03,Cámara
+2024-02-06,2233,Allen Jones,866.09,Consola de videojuegos
+2024-03-29,1193,Lisa Greene,210.82,Auriculares
+2024-03-13,6745,Marc Potts,161.11,Auriculares
+2024-02-20,3557,Megan Mcclain,389.4,Monitor
+2024-02-06,6419,Randy Santiago,308.85,Mouse
+2024-05-20,4223,Jennifer Mack,458.8,Teléfono móvil
+2024-05-11,2702,Melissa Mccullough,320.68,Impresora
+2024-06-23,1476,Shari Mendoza,387.64,Cámara de seguridad
+2024-06-26,3920,Jerry Nelson,553.12,Cámara de seguridad
+2024-05-13,8739,Mrs. Jessica Scott,850.23,Televisor
+2024-05-19,6409,Tracy Lloyd,158.98,Sistema de sonido
+2024-05-08,7360,Melissa Coffey,394.03,Reproductor de DVD
+2024-04-08,409,Melvin York MD,219.76,Smartwatch
+2024-01-20,59,Joseph Williams,826.23,Televisor
+2024-06-30,7872,James Wright,21.73,Disco duro externo
+2024-01-18,7979,Nancy White,678.14,Altavoz Bluetooth
+2024-07-25,4787,Ronald Johnson,436.08,Tablet
+2024-08-01,9167,Candace Davenport,631.12,Proyector
+2024-02-07,7961,Mitchell Ross,123.87,Reproductor de DVD
+2024-05-23,2327,Timothy Moore,537.99,Sistema de sonido
+2024-05-08,6741,Danielle Patterson,216.0,Teléfono móvil
+2024-05-24,34,Bryan Potts,827.67,Televisor
+2024-04-26,6889,Brooke Reid,550.62,Tablet
+2024-02-28,2055,Robert Pugh,111.86,Consola de videojuegos
+2024-05-16,4244,Miss Jessica Hawkins,27.9,Tablet
+2024-04-19,6698,Jacob Bernard,868.46,Reproductor de DVD
+2024-04-13,6325,Derek Foster,49.04,Smartwatch
+2024-04-08,1179,Erika Winters,655.58,Impresora
+2024-01-30,7731,Zachary Johnson,619.25,Micrófono
+2024-07-01,8364,Daniel Pearson,981.93,Altavoz Bluetooth
+2024-05-03,7734,Crystal Francis DDS,288.74,Cámara de seguridad
+2024-02-02,9071,Laura Campbell,388.19,Auriculares
+2024-02-29,3735,Amanda Brown,758.81,Tablet
+2024-08-05,1064,Samuel Lee,259.25,Teléfono móvil
+2024-01-22,7755,Christian Krause,820.48,Mouse
+2024-05-31,7603,Mary Estrada,685.5,Micrófono
+2024-07-18,7215,Michael Martin,461.66,Smartwatch
+2024-08-03,2919,Elizabeth Murphy,400.85,Auriculares
+2024-04-11,6727,Timothy Hayes MD,357.74,Reproductor de DVD
+2024-05-27,824,Jonathan Davidson,123.31,Monitor
+2024-05-08,9516,John Romero,370.68,Teléfono móvil
+2024-03-29,7916,Steven Lee,820.23,Cámara
+2024-05-15,1798,Jennifer Martinez,557.5,Monitor
+2024-07-17,1071,Anne Durham,648.03,Tablet
+2024-05-02,7373,Sarah Watson,710.68,Teléfono móvil
+2024-04-26,8324,Joan Williams,767.78,Tablet
+2024-01-18,3655,Yolanda Anderson,695.24,Auriculares
+2024-03-11,5728,Devin Klein,38.4,Monitor
+2024-05-06,6930,Charles Little,276.93,Teclado
+2024-01-22,8584,Ryan Cannon,306.54,Televisor
+2024-04-06,8810,Joe Kim,236.59,Computadora portátil
+2024-04-02,3555,Michael Watson,597.85,Consola de videojuegos
+2024-02-09,1792,Drew Anderson,904.01,Monitor
+2024-01-13,7812,Dustin Bradford,848.55,Smartwatch
+2024-04-23,4445,Raymond Burton,204.75,Smartwatch
+2024-05-16,9753,Haley Dillon,237.01,Router
+2024-01-10,302,Christopher Brown,707.71,Cámara de seguridad
+2024-02-21,5339,Jacob Garcia,653.56,Altavoz Bluetooth
+2024-05-17,9328,Matthew Richmond,818.41,Reproductor de DVD
+2024-03-16,1975,Teresa Mason,999.1,Smartwatch
+2024-04-17,1322,Debra Cruz,807.51,Mouse
+2024-05-19,1367,Jason Palmer,236.17,Impresora
+2024-03-03,6539,Jasmine Stewart,742.52,Auriculares
+2024-07-24,1362,Tara Griffith,337.13,Altavoz Bluetooth
+2024-02-08,1013,Ashley Smith,575.44,Televisor
+2024-02-05,7133,Maria Vazquez,415.28,Tablet
+2024-03-20,5545,Jacqueline Rodriguez,845.23,Cámara de seguridad
+2024-02-11,629,Jacob Barr,192.22,Cámara de seguridad
+2024-05-26,1299,Marcia Orr,916.9,Televisor
+2024-02-28,6572,Cynthia Cobb,36.3,Mouse
+2024-02-28,4208,Tracy Miller,586.19,Sistema de sonido
+2024-02-05,2552,Heather Hernandez,710.18,Impresora
+2024-06-01,8450,Priscilla Flores,354.79,Sistema de sonido
+2024-01-27,1941,Bridget Williams,406.6,Impresora
+2024-02-13,9477,Sandra Mcfarland,254.54,Impresora
+2024-02-17,1486,David Coleman,117.37,Consola de videojuegos
+2024-01-27,9969,Brent Hayes,631.23,Reproductor de DVD
+2024-04-29,4328,Teresa Burke,222.35,Reproductor de DVD
+2024-01-18,1138,James Harvey,634.36,Teclado
+2024-07-02,3267,Miranda Palmer,445.93,Sistema de sonido
+2024-08-01,6099,Dr. Rebecca Hale DVM,960.33,Consola de videojuegos
+2024-04-30,3614,Lauren Ayala,979.12,Proyector
+2024-01-09,6617,Shirley Avila,533.52,Cámara de seguridad
+2024-01-14,5741,Crystal Mitchell,854.26,Televisor
+2024-07-14,6005,Melanie Martinez,611.13,Sistema de sonido
+2024-07-25,2619,Robert Castillo,53.04,Cámara de seguridad
+2024-02-05,4535,Denise Ballard,968.5,Impresora
+2024-04-25,2516,Angela Ruiz,136.84,Cámara
+2024-02-12,977,Reginald Lopez,588.95,Auriculares
+2024-01-10,3619,Thomas Flores,857.14,Cámara de seguridad
+2024-03-27,8319,Jason Frye,271.98,Cámara de seguridad
+2024-01-15,4593,Jessica Mendoza,44.82,Auriculares
+2024-07-30,5651,Jacob Wright,134.48,Computadora portátil
+2024-05-09,6381,Cody Cole,847.24,Cámara de seguridad
+2024-04-08,1642,Kimberly Jordan,41.42,Altavoz Bluetooth
+2024-05-01,4936,Jaime Smith,895.45,Cámara
+2024-02-14,8523,Maurice Schneider,871.49,Teclado
+2024-04-08,6465,Jesse Stone,439.03,Impresora
+2024-06-07,4289,Eileen Fischer,577.91,Disco duro externo
+2024-05-12,2735,Justin West,953.43,Smartwatch
+2024-06-07,3851,Thomas Lang,400.75,Smartwatch
+2024-08-02,9361,Kristin Pham,232.54,Computadora portátil
+2024-07-01,7320,Christopher Turner,203.73,Teclado
+2024-01-20,3643,Dr. William Richards V,319.81,Cámara
+2024-05-21,3128,Patrick Ellison,303.79,Cámara
+2024-02-09,4995,Johnny Cox,343.67,Auriculares
+2024-08-01,9956,Edgar Hansen,945.7,Tablet
+2024-06-04,8447,Sonya Hernandez,807.66,Tablet
+2024-05-25,8423,Sarah Tate,675.14,Auriculares
+2024-05-18,2531,Timothy Davis,837.78,Proyector
+2024-06-02,1080,Bailey Lopez,51.3,Micrófono
+2024-06-23,4649,Edwin Bridges,783.69,Teclado
+2024-06-30,1062,David Jackson,664.23,Router
+2024-07-08,9817,Alexander Jacobs,622.79,Auriculares
+2024-04-09,5735,Juan Gomez,271.63,Smartwatch
+2024-05-09,1561,Steven Robinson,703.44,Cámara
+2024-07-10,7163,Lauren Wolf,156.35,Router
+2024-02-06,3531,Austin Dominguez,982.14,Impresora
+2024-01-19,3301,Tommy Thomas,627.54,Disco duro externo
+2024-01-09,6793,Stacey Robertson,410.31,Disco duro externo
+2024-02-06,6510,Robert Sparks,709.97,Cámara
+2024-07-28,7975,Jessica Mcbride,74.1,Teclado
+2024-02-16,8625,Jennifer Baker,836.56,Monitor
+2024-03-06,5299,Amber Thomas,401.35,Router
+2024-07-09,9428,Mikayla Chase,487.09,Consola de videojuegos
+2024-03-26,4421,Scott Rodriguez,302.41,Micrófono
+2024-06-13,7249,Lauren Shaw,784.0,Consola de videojuegos
+2024-08-03,6089,Brandon Bailey,638.71,Cámara
+2024-07-14,3239,William Wilson,316.81,Televisor
+2024-05-28,536,Karen Hill,575.41,Impresora
+2024-01-19,5987,Denise Shaw,579.82,Monitor
+2024-06-18,3894,Eric Young,599.65,Sistema de sonido
+2024-06-27,2341,Christina Brown,947.57,Altavoz Bluetooth
+2024-06-10,9317,Renee Jones,860.32,Disco duro externo
+2024-05-03,2133,Joan Johnson,212.94,Auriculares
+2024-04-24,6327,Caitlin Haynes,666.86,Cámara
+2024-03-08,5731,Jay Hill,413.93,Teclado
+2024-03-15,2358,Steven Reynolds,897.04,Impresora
+2024-07-08,8706,Michael Jordan,369.7,Altavoz Bluetooth
+2024-02-24,9748,Christina Tyler,320.45,Router
+2024-01-06,690,Melissa Conway,824.94,Mouse
+2024-02-01,474,Debbie Price,401.34,Televisor
+2024-03-10,7979,Vanessa Lopez,882.85,Tablet
+2024-05-31,580,Thomas Young,710.84,Auriculares
+2024-02-12,8870,Ivan Dean,386.57,Cámara
+2024-04-15,8640,Jodi Wood,106.23,Teléfono móvil
+2024-06-10,2572,Dawn Lowery,635.02,Impresora
+2024-07-16,7507,Jessica Murphy,503.16,Disco duro externo
+2024-06-25,4386,Nathan Adams,649.08,Teléfono móvil
+2024-03-24,1061,Cathy Washington,601.57,Cámara
+2024-04-30,3098,Harry Murray,894.28,Micrófono
+2024-02-15,6681,Anita Harris,16.57,Auriculares
+2024-07-06,1284,Andrew Olsen,731.14,Impresora
+2024-07-11,4314,Ms. Virginia Reynolds,406.85,Monitor
+2024-01-05,2331,Pamela Soto,500.86,Smartwatch
+2024-02-10,1582,Chad Glover,267.01,Impresora
+2024-05-28,3637,Misty Morgan,745.29,Altavoz Bluetooth
+2024-05-31,2357,Kevin Smith,615.97,Cámara de seguridad
+2024-01-09,8682,Amanda Stephenson,933.16,Mouse
+2024-02-03,2701,Mark Faulkner,167.87,Tablet
+2024-02-12,4159,Michelle Carter,183.77,Cámara de seguridad
+2024-06-30,1566,Allison Olson,329.3,Altavoz Bluetooth
+2024-05-07,1503,Christopher Andrade,363.86,Consola de videojuegos
+2024-02-19,7541,Eric Powell,788.86,Teclado
+2024-03-25,9875,Sierra Spears,314.28,Teclado
+2024-05-08,8936,Timothy Mendoza,977.17,Cámara
+2024-05-28,7587,Daniel Smith,766.35,Monitor
+2024-07-14,6985,Kimberly Ross,556.66,Mouse
+2024-05-05,2448,Michelle Simon,382.2,Computadora portátil
+2024-07-07,857,Christine Thomas DDS,861.38,Monitor
+2024-03-06,7283,Cheyenne Mccullough,148.25,Proyector
+2024-01-19,2615,Mr. Paul Hopkins,740.74,Cámara de seguridad
+2024-04-27,916,Johnny Shields,637.36,Cámara
+2024-04-13,8672,Laura Williams,930.96,Cámara
+2024-06-14,7387,Daniel Scott,771.37,Teclado
+2024-01-13,7385,Wesley Mitchell,144.68,Micrófono
+2024-04-09,8577,Jennifer Clark,438.13,Auriculares
+2024-01-02,4822,Brian Jenkins,701.49,Monitor
+2024-02-23,4547,Sonya Schmitt,675.57,Computadora portátil
+2024-06-06,1364,James Best,317.71,Cámara
+2024-04-30,7748,Elizabeth Wilson,840.64,Sistema de sonido
+2024-03-06,23,Elizabeth Hart,901.71,Tablet
+2024-04-07,3847,Kimberly Johnson,227.68,Monitor
+2024-05-06,9467,Keith Hood,137.03,Cámara
+2024-01-29,7495,Morgan Williams,552.36,Sistema de sonido
+2024-05-13,5571,Danielle Davis,458.09,Consola de videojuegos
+2024-05-13,4995,Zachary Cook,871.36,Tablet
+2024-05-08,4123,Justin Austin,795.87,Teléfono móvil
+2024-03-03,2180,John Mitchell,868.87,Consola de videojuegos
+2024-07-14,4693,Destiny Elliott,673.32,Auriculares
+2024-03-22,9241,Marvin Richards,917.69,Teléfono móvil
+2024-04-15,7081,Natalie Lee,50.97,Teclado
+2024-05-28,1627,Kayla Stanton,73.83,Consola de videojuegos
+2024-02-09,6810,Stephanie Shepherd,297.77,Reproductor de DVD
+2024-06-17,6943,Christopher White,871.99,Smartwatch
+2024-05-26,5795,Robert Gutierrez,491.15,Teclado
+2024-03-12,7194,Emily Clark,52.23,Proyector
+2024-04-29,8525,Scott Fuentes,308.47,Reproductor de DVD
+2024-03-26,6309,Shelley Hill,574.43,Televisor
+2024-07-17,3283,Francis Hale,352.34,Teléfono móvil
+2024-06-07,7576,Mary Huffman,727.94,Altavoz Bluetooth
+2024-06-27,4593,Justin Watson,446.01,Computadora portátil
+2024-03-06,8885,Scott Myers,52.86,Cámara de seguridad
+2024-04-09,3544,Brittany Lloyd,688.47,Router
+2024-05-01,5687,Linda Davis,532.95,Disco duro externo
+2024-03-11,6043,Yvonne Watson,437.19,Router
+2024-05-30,1879,Sydney Clark,335.53,Altavoz Bluetooth
+2024-05-01,1787,Jack Phillips,363.44,Monitor
+2024-02-19,8535,Tiffany Wallace,44.32,Consola de videojuegos
+2024-01-31,3234,Michael Smith,528.5,Tablet
+2024-03-31,7952,David Chan,365.74,Sistema de sonido
+2024-06-28,3835,Cheryl Stevens,45.94,Auriculares
+2024-07-09,6824,Shelly Burton,457.8,Micrófono
+2024-05-19,7207,James Burgess,836.59,Televisor
+2024-07-23,600,Wendy Hernandez,704.27,Altavoz Bluetooth
+2024-01-26,435,Kaylee Morrow,862.86,Reproductor de DVD
+2024-07-04,7408,Isaiah Mason,52.76,Router
+2024-03-09,2001,Allison Hill,548.3,Teclado
+2024-05-16,309,Max Lee,303.55,Smartwatch
+2024-06-30,3283,Susan Aguilar,320.75,Auriculares
+2024-03-13,9577,Michael Dunn,541.98,Tablet
+2024-06-30,8852,Randall Rocha,512.67,Cámara
+2024-05-23,6218,Marissa Mata,49.34,Teclado
+2024-05-28,5964,Sarah Adkins,834.58,Computadora portátil
+2024-01-25,8634,Jennifer Higgins,260.15,Teléfono móvil
+2024-01-28,1660,James Coleman,214.32,Reproductor de DVD
+2024-01-05,8278,Breanna Thomas,467.69,Smartwatch
+2024-04-25,4512,Sophia Scott,615.76,Auriculares
+2024-05-10,5885,Joanne Kirk,181.66,Tablet
+2024-07-21,9417,Joshua Johnson,496.24,Cámara
+2024-05-11,4330,Lisa Brown,546.64,Auriculares
+2024-04-26,2567,Samantha Garcia,982.2,Monitor
+2024-07-09,3067,Corey Shaw,190.9,Altavoz Bluetooth
+2024-03-12,2671,Gregory Simpson,770.59,Tablet
+2024-04-30,1592,Paul Floyd,810.43,Auriculares
+2024-08-05,1735,Julia Butler,619.26,Micrófono
+2024-04-12,6157,Aaron Stevens,699.63,Sistema de sonido
+2024-05-05,5773,Thomas Fuller,859.1,Teclado
+2024-07-15,8190,Jill Mora,71.48,Teclado
+2024-03-21,1075,Melody Smith,286.86,Proyector
+2024-01-09,4515,Corey Soto,14.58,Impresora
+2024-02-09,4472,Gerald Yoder,674.02,Cámara
+2024-06-15,154,Andrea Jones,256.41,Mouse
+2024-06-30,4801,Tiffany Barton,381.64,Teclado
+2024-04-20,6107,Christopher Mitchell,15.94,Disco duro externo
+2024-03-06,3410,Kristen Richmond,126.88,Auriculares
+2024-03-18,3639,Rachel Sheppard,937.18,Reproductor de DVD
+2024-06-16,8717,Michael Russell,598.16,Impresora
+2024-05-09,1480,Matthew Ritter,796.01,Teléfono móvil
+2024-05-21,5142,Michael Melton,802.45,Consola de videojuegos
+2024-03-25,3134,Anne Cook,927.64,Teléfono móvil
+2024-01-19,3826,Daniel Ward,76.53,Cámara
+2024-05-20,2168,Shawn Jordan,718.85,Cámara de seguridad
+2024-06-12,5764,Anthony Tate,169.09,Router
+2024-03-25,4925,Clinton Jenkins,627.65,Micrófono
+2024-06-23,9976,Susan Miller,601.93,Smartwatch
+2024-06-17,3281,Alexander Stewart,977.2,Impresora
+2024-04-19,852,Lisa Bell,790.1,Cámara de seguridad
+2024-01-12,9503,Thomas Delacruz,559.53,Cámara
+2024-05-31,5026,Blake Burke,842.75,Impresora
+2024-02-01,6783,Andrea Welch,206.6,Cámara de seguridad
+2024-07-18,6073,Patrick Smith,222.24,Cámara de seguridad
+2024-02-20,3062,Virginia Martinez,604.95,Proyector
+2024-07-21,4209,Jamie Jones,152.91,Altavoz Bluetooth
+2024-05-18,8094,Rebecca Downs,266.25,Proyector
+2024-01-29,6217,Valerie Henry,749.08,Cámara de seguridad
+2024-05-13,4321,Adam Riley,891.31,Teclado
+2024-04-08,6982,Wendy Anderson,84.51,Monitor
+2024-06-27,113,Chris Clark,601.54,Cámara
+2024-05-11,3378,Brandy Smith,460.94,Micrófono
+2024-03-11,6446,Kimberly Doyle,579.4,Sistema de sonido
+2024-04-21,8218,Meghan Graham,427.7,Televisor
+2024-04-03,6804,Robert Knight,647.92,Router
+2024-06-29,6360,John Smith,39.87,Computadora portátil
+2024-06-05,2279,Paul Reyes MD,120.33,Consola de videojuegos
+2024-05-02,6032,Emily Clark,727.49,Computadora portátil
+2024-03-08,4166,Patricia Manning,909.4,Mouse
+2024-05-20,2473,Andrea Kelly,841.73,Teléfono móvil
+2024-07-20,7175,Margaret Roberson,521.17,Disco duro externo
+2024-07-24,8349,Amanda Rogers,345.54,Teclado
+2024-06-17,16,Natalie Underwood,427.69,Impresora
+2024-05-09,5325,Elizabeth Wise,124.86,Monitor
+2024-05-31,8271,Andres Barrett,74.59,Televisor
+2024-05-14,3854,Allison Mcgee,923.65,Auriculares

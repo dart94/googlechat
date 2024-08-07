@@ -4,6 +4,7 @@ import pandas as pd
 import google.generativeai as genai
 from datetime import datetime
 
+
 class GeminiChatbot:
     def __init__(self):
         self.init_gemini_chatbot()

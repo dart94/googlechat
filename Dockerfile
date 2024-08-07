@@ -14,3 +14,4 @@ RUN useradd -m app && echo "app ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 USER app
 
 ENTRYPOINT ["python", "main.py"]
+# 
