@@ -1,9 +1,15 @@
+from flask import Flask, render_template, request, jsonify
 import gradio as gr
 import os
 import pandas as pd
 import google.generativeai as genai
 from datetime import datetime
+from dotenv import load_dotenv
 
+# Cargar las variables de entorno desde el archivo .env
+load_dotenv()
+
+app = Flask(__name__)
 
 class GeminiChatbot:
     def __init__(self):
@@ -15,9 +21,7 @@ class GeminiChatbot:
         self.model = genai.GenerativeModel('gemini-pro')
 
     def load_csv_data(self):
-        # Cargar los datos del CSV
         self.data = pd.read_csv('ventas.csv')
-        # Convertir la columna 'fecha' a datetime
         self.data['fecha'] = pd.to_datetime(self.data['fecha'])
 
     def search_csv(self, question):
@@ -121,28 +125,34 @@ class GeminiChatbot:
         return None
 
     def get_response(self, question: str, conversation: list):
-        # Buscar la respuesta en el CSV
         csv_answer = self.search_csv(question)
         if csv_answer:
             response_text = csv_answer
         else:
-            # Si no se encuentra en el CSV, usar el modelo generativo
-            response = self.model.generate_content(question)
-            response_text = response.text
+            try:
+                response = self.model.generate_content(question)
+                if response.text:
+                    response_text = response.text
+                else:
+                    response_text = "Lo siento, no pude generar una respuesta en este momento."
+            except Exception as e:
+                response_text = f"Error al generar respuesta: {str(e)}"
         
         conversation.append((question, response_text))
-        return "", conversation
-    
-    def launch_gradio(self):
-        with gr.Blocks() as demo:
-            chatbot = gr.Chatbot()
-            question = gr.Textbox(label="Pregúntame")
-            clear = gr.ClearButton([question, chatbot])
+        return response_text, conversation
 
-            question.submit(self.get_response, [question, chatbot], [question, chatbot])
 
-        demo.launch(debug=True, server_name="0.0.0.0", server_port=5000)
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    user_input = request.json.get('message')
+    gc = GeminiChatbot()
+    conversation = []  # Inicia la conversación como una lista vacía o recupérala de algún lugar
+    response_text, conversation = gc.get_response(user_input, conversation)
+    return jsonify({'response': response_text})
 
 if __name__ == "__main__":
-    gc = GeminiChatbot()
-    gc.launch_gradio()
+    app.run(host="0.0.0.0", port=5000)
