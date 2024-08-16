@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asistente de Ventas AI</title>
+    <title>Chat-Go</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <header class="main-header">
         <nav class="navbar">
-            <div class="logo">Asistente de Ventas AI</div>
+            <a href="{{ url_for('index') }}">
+                <img src="{{ url_for('static', filename='img/logo-no-background.png') }}" alt="Logo" class="logo-img">
+            </a>
             <ul class="nav-links">
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#features">Características</a></li>
@@ -22,7 +24,7 @@
     <main>
         <section class="content-section">
             <div class="home-content">
-                <h1>Bienvenido a tu Chat de Ventas AI</h1>
+                <h1>Bienvenido a Chat-Go</h1>
                 <p>Mejora tu experiencia con nuestro avanzado chatbot.</p>
                 <button class="btn" id="toggleChatbot">
                     <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
@@ -36,7 +38,7 @@
             <div id="chatbot" class="chat-section">
                 <div class="chat-container">
                     <div class="chat-header">
-                        Asistente de Ventas AI
+                        Chat-Go
                     </div>
                     <div id="messages"></div>
                     <div class="input-area">
@@ -51,8 +53,7 @@
     </main>
 
     <footer class="main-footer">
-        <p>&copy; 2024 Asistente de Ventas AI. Todos los derechos reservados.</p>
-        <p><a href="#contact">Contáctanos</a></p>
+        <p>&copy; 2024 Chat-Go. Todos los derechos reservados.</p>
     </footer>
 
     <script src="{{ url_for('static', filename='script.js') }}"></script>
