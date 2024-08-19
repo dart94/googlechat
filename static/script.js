@@ -3,6 +3,30 @@ document.addEventListener('DOMContentLoaded', function() {
     const sendButton = document.getElementById('send-button');
     const toggleButton = document.getElementById('toggleChatbot');
     const chatbot = document.getElementById('chatbot');
+    const chatLink = document.getElementById('chatLink');
+
+    // Función para el desplazamiento suave
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        const headerHeight = document.querySelector('.main-header').offsetHeight;
+        const sectionTop = section.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+        window.scrollTo({
+            top: sectionTop,
+            behavior: 'smooth'
+        });
+    }
+
+    // Manejador de eventos para los enlaces de navegación
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const sectionId = this.getAttribute('href').substring(1);
+            scrollToSection(sectionId);
+            if (sectionId === 'chat') {
+                chatbot.style.display = 'block';
+            }
+        });
+    });
 
     // Función para enviar el mensaje
     function sendMessage() {
@@ -51,12 +75,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Evento para mostrar/ocultar el chatbot al hacer clic en el botón de toggle
+    // Evento para mostrar/ocultar el chatbot
     toggleButton.addEventListener('click', function() {
-        if (chatbot.style.display === 'none' || chatbot.style.display === '') {
-            chatbot.style.display = 'block';
-        } else {
-            chatbot.style.display = 'none';
+        chatbot.style.display = chatbot.style.display === 'none' || chatbot.style.display === '' ? 'block' : 'none';
+        if (chatbot.style.display === 'block') {
+            scrollToSection('chat');
         }
+    });
+
+    // Evento para el enlace del chat en el header
+    chatLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        chatbot.style.display = 'block';
+        scrollToSection('chat');
     });
 });

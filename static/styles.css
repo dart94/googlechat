@@ -1,9 +1,9 @@
-/* Importar la fuente Afacad de Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&display=swap');
 
-/* Definimos el tamaño de fuente base en el elemento raíz */
+
 html {
-    font-size: 18px; /* Esto hace que 1rem = 16px por defecto */
+    font-size: 18px; 
 }
 
 :root {
@@ -31,9 +31,14 @@ body {
 }
 
 header.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: rgba(0, 0, 0, 0.5); /* Hacemos el header semi-transparente */
     padding: 0.9375rem 5%;
     box-shadow: 0 0.25rem 0.375rem rgba(0,0,0,0.3);
+    z-index: 1000;
 }
 
 .navbar {
@@ -72,6 +77,7 @@ header.main-header {
 main {
     flex-grow: 1;
     padding: 1.25rem 5%;
+    padding-top: 80px; /* Ajusta este valor según la altura de tu header */
 }
 
 .home-section {
@@ -416,3 +422,62 @@ main {
         padding: 1.25rem;
     }
 }
+
+
+/* From Uiverse.io by Shreya-3107 */ 
+.card {
+    width: 290px;
+    height: 300px;
+    background: #c0afd5;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #554860;
+    border-radius: 15px;
+    box-shadow: -20px 20px 0px -5px #9c87c0;
+  }
+  
+  .title {
+    font-weight: 900;
+    font-size: 1.7em;
+  }
+  
+  .tag__name {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.1em;
+    background-color: #9c87c0;
+    padding: 6px 23px 9px;
+    border-radius: 70em;
+    margin: 8px 6px 8px 0;
+    margin-left: 0px;
+    position: relative;
+    text-transform: lowercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .tag__name::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #554860;
+  }
+  
+  .tag__name::before {
+    left: 7px;
+  }
+  
+  .tag__name::after {
+    right: 7px;
+  }
+  
+  .tag__name:hover {
+    transform: scale(1.1);
+    background-color: #9c87c0;
+  }
+  
