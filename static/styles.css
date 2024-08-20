@@ -224,7 +224,7 @@ main {
 
 .input-area {
     display: flex;
-    padding: 0.9375rem;
+    padding: 0.75rem;
     background-color: rgba(30, 30, 30, 0.8);
     border-top: 0.0625rem solid var(--secondary-color);
 }
@@ -357,8 +357,9 @@ main {
     }
 
     .chat-section {
-        height: 70vh;
-        max-height: 42.8571rem;
+        height: 90vh;
+        max-height: 60rem;
+        font-size: 1rem;
     }
 
     .features-content h2 {
@@ -398,11 +399,13 @@ main {
     }
 
     #messages {
-        padding: 0.8333rem;
+        padding: 0.75rem;
+        font-size: 1rem;
     }
 
     .message-content {
         max-width: 90%;
+        padding: 075rem 1.25rem;
         font-size: 1.1667rem;
     }
 
