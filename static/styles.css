@@ -405,7 +405,7 @@ main {
 
     .message-content {
         max-width: 90%;
-        padding: 075rem 1.25rem;
+        /* padding: 075rem 1.25rem; */
         font-size: 1.1667rem;
     }
 
