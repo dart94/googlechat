@@ -8,25 +8,35 @@ document.addEventListener('DOMContentLoaded', function() {
     // Función para el desplazamiento suave
     function scrollToSection(sectionId) {
         const section = document.getElementById(sectionId);
-        const headerHeight = document.querySelector('.main-header').offsetHeight;
-        const sectionTop = section.getBoundingClientRect().top + window.pageYOffset - headerHeight;
-        window.scrollTo({
-            top: sectionTop,
-            behavior: 'smooth'
-        });
+        if (section) {
+            const headerHeight = document.querySelector('.main-header').offsetHeight;
+            const sectionTop = section.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+            window.scrollTo({
+                top: sectionTop,
+                behavior: 'smooth'
+            });
+        }
     }
 
     // Manejador de eventos para los enlaces de navegación
-    document.querySelectorAll('.nav-links a').forEach(link => {
+    document.querySelectorAll('.nav-links a, .logo-img').forEach(link => {
         link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const sectionId = this.getAttribute('href').substring(1);
-            scrollToSection(sectionId);
-            if (sectionId === 'chat') {
-                chatbot.style.display = 'block';
+            const href = this.getAttribute('href');
+            console.log('Clicked link href:', href); // Agregar esto para debuggear
+            if (href === '/' || href.includes('index')) {
+                return;
+            }
+            if (href.startsWith('#')) {
+                e.preventDefault();
+                const sectionId = href.substring(1);
+                scrollToSection(sectionId);
+                if (sectionId === 'chat') {
+                    chatbot.style.display = 'block';
+                }
             }
         });
     });
+
 
     // Función para enviar el mensaje
     function sendMessage() {
@@ -66,27 +76,38 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Evento para enviar el mensaje al hacer clic en el botón
-    sendButton.addEventListener('click', sendMessage);
+    if (sendButton) {
+        sendButton.addEventListener('click', sendMessage);
+    }
 
     // Evento para enviar el mensaje al presionar la tecla Enter
-    userInput.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-            sendMessage();
-        }
-    });
+    if (userInput) {
+        userInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    }
 
     // Evento para mostrar/ocultar el chatbot
-    toggleButton.addEventListener('click', function() {
-        chatbot.style.display = chatbot.style.display === 'none' || chatbot.style.display === '' ? 'block' : 'none';
-        if (chatbot.style.display === 'block') {
-            scrollToSection('chat');
-        }
-    });
+    if (toggleButton) {
+        toggleButton.addEventListener('click', function() {
+            chatbot.style.display = chatbot.style.display === 'none' || chatbot.style.display === '' ? 'block' : 'none';
+            if (chatbot.style.display === 'block') {
+                scrollToSection('chat');
+            }
+        });
+    }
 
     // Evento para el enlace del chat en el header
-    chatLink.addEventListener('click', function(e) {
-        e.preventDefault();
-        chatbot.style.display = 'block';
-        scrollToSection('chat');
-    });
+    if (chatLink) {
+        chatLink.addEventListener('click', function(e) {
+            if (this.getAttribute('href') === '#chago') {
+                e.preventDefault();
+                chatbot.style.display = 'block';
+                scrollToSection('chat');
+            }
+            // Si el href no es #chat, permitirá la navegación normal
+        });
+    }
 });

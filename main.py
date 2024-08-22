@@ -141,13 +141,16 @@ class GeminiChatbot:
         conversation.append((question, response_text))
         return response_text, conversation
 
-
 @app.route('/')
 def index():
     return render_template('index.html')
 
+@app.route('/chatgo')
+def chatgo():
+    return render_template('chatgo.html')
+
 @app.route('/chat', methods=['POST'])
-def chat():
+def chat_api():
     user_input = request.json.get('message')
     gc = GeminiChatbot()
     conversation = []  # Inicia la conversación como una lista vacía o recupérala de algún lugar
@@ -155,4 +158,4 @@ def chat():
     return jsonify({'response': response_text})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000, debug=True)
