@@ -6,20 +6,22 @@ html {
 }
 
 :root {
-    --primary-color: #8A2BE2;
-    --secondary-color: #B19CD9;
-    --background-color: #121212;
-    --surface-color: rgba(30, 30, 30, 0.8); /* Hacemos el surface-color semi-transparente */
+    --primary-color: #9D4EDD; 
+    --secondary-color: #C77DFF; 
+    --background-color: #0d1b2a; 
+    --surface-color: rgba(25, 25, 25, 0.8); 
     --on-surface-color: #FFFFFF;
-    --text-primary-color: #E0E0E0;
+    --text-primary-color: #F0F0F0; 
     --text-secondary-color: #BDBDBD;
-    --highlight-color: #DA70D6;
+    --highlight-color: #FF61D2; 
+    --accent-color: #4CC9F0; 
 }
+
 
 body {
     font-family: 'Afacad', sans-serif;
-    background: linear-gradient(140deg, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 92%, rgba(177,156,217,1) 100%);
-    background-attachment: fixed; /* Esto asegura que el gradiente no se repita y cubra toda la página */
+    background: var(--background-color);
+    background-attachment: fixed; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -30,9 +32,8 @@ body {
 }
 
 header.main-header {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--background-color);
     padding: 0.9375rem 5%;
-    box-shadow: 0 0.25rem 0.375rem rgba(0,0,0,0.3);
     z-index: 1000;
 }
 
@@ -72,21 +73,21 @@ header.main-header {
 main {
     flex-grow: 1;
     padding: 1.25rem 5%;
-    padding-top: 80px; /* Ajusta este valor según la altura de tu header */
+    padding-top: 80px; 
 }
 
 .home-section {
     padding: 2.5rem 5%;
     text-align: center;
     background-color: var(--surface-color);
-    backdrop-filter: blur(10px); /* Añadimos un efecto de desenfoque para mejorar la legibilidad */
+    backdrop-filter: blur(10px); 
     border-radius: 0.9375rem;
     margin-bottom: 1.875rem;
 }
 
 .home-content h1 {
     font-size: 2.5rem;
-    color: var(--secondary-color);
+    color: var(--text-primary-color);
     margin-bottom: 1.25rem;
     font-weight: 700;
 }
@@ -111,7 +112,7 @@ main {
     width: 100%;
     max-width: 50rem;
     background-color: var(--surface-color);
-    backdrop-filter: blur(10px); /* Añadimos un efecto de desenfoque para mejorar la legibilidad */
+    backdrop-filter: blur(10px); 
     border-radius: 0.9375rem;
     box-shadow: 0 0.625rem 1.25rem rgba(0,0,0,0.2);
     padding: 1.875rem;
@@ -151,7 +152,7 @@ main {
 
 .chat-container {
     width: 100%;
-    background-color: rgba(30, 30, 30, 0.6); /* Hacemos el contenedor del chat semi-transparente */    border-radius: 0.9375rem;
+    background-color: rgba(30, 30, 30, 0.6);   border-radius: 0.9375rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -185,7 +186,7 @@ main {
 }
 
 #messages::-webkit-scrollbar-thumb {
-    background-color: rgba(138, 43, 226, 0.8); /* Hacemos los mensajes del usuario semi-transparentes */
+    background-color: rgba(138, 43, 226, 0.8); 
     border-radius: 0.25rem;
     border: 0.1875rem solid var(--surface-color);
 }
@@ -222,6 +223,23 @@ main {
     color: var(--text-primary-color);
 }
 
+
+.bot-message h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.bot-message ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.bot-message li {
+    margin-bottom: 5px;
+}
+
 .input-area {
     display: flex;
     padding: 0.75rem;
@@ -253,7 +271,7 @@ main {
 }
 
 #send-button:hover {
-    background-color: var(--highlight-color);
+    background-color: var(--on-surface-color);
     transform: scale(1.05);
 }
 
@@ -325,51 +343,45 @@ main {
     transform: scale(1.2);
 }
 
-#chatbot {
-    display: none;
-}
+
 
 /* Media queries para responsividad */
+
 @media (max-width: 48rem) { /* 768px */
     html {
-        font-size: 16px; /* Reducimos ligeramente el tamaño base de fuente para pantallas más pequeñas */
+        font-size: 16px;
     }
-
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .nav-links {
         margin-top: 1.0714rem;
     }
-
     .home-content h1 {
         font-size: 2rem;
     }
-
     .home-content p {
         font-size: 1.1429rem;
     }
-
     .features-section {
         padding: 1.4286rem;
     }
-
     .chat-section {
-        height: 90vh;
-        max-height: 60rem;
+        height: 95vh; /* Aumentado para dar más espacio */
+        max-height: none; /* Eliminamos la altura máxima para que ocupe todo el espacio disponible */
         font-size: 1rem;
+        padding: 1rem; /* Añadimos un poco de padding */
+        margin: 1rem 0; /* Añadimos margen arriba y abajo */
+        box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Añadimos una sombra sutil */
     }
-
     .features-content h2 {
         font-size: 1.7143rem;
     }
-
     #messages {
-        height: 17.8571rem;
+        height: calc(95vh - 10rem); /* Ajustamos la altura para que ocupe la mayor parte de la sección de chat */
+        overflow-y: auto; /* Aseguramos que se pueda hacer scroll si el contenido excede la altura */
     }
-
     .btn {
         width: 12.8571rem;
         height: 3.2143rem;
@@ -379,46 +391,39 @@ main {
 
 @media (max-width: 30rem) { /* 480px */
     html {
-        font-size: 14px; /* Reducimos aún más el tamaño base de fuente para pantallas muy pequeñas */
+        font-size: 14px;
     }
-
     .home-content h1 {
         font-size: 2rem;
     }
-
     .home-content p {
         font-size: 1.1667rem;
     }
-
     .features-content h2 {
         font-size: 1.6667rem;
     }
-
     .features-content li {
         font-size: 1.1667rem;
     }
-
     #messages {
         padding: 0.75rem;
         font-size: 1rem;
+        height: calc(90vh - 8rem); /* Ajustamos la altura para pantallas muy pequeñas */
     }
-
     .message-content {
         max-width: 90%;
-        /* padding: 075rem 1.25rem; */
         font-size: 1.1667rem;
     }
-
     .btn {
         width: 13.3333rem;
         height: 3.3333rem;
         font-size: 1rem;
     }
-
     .chat-section {
-        height: 60vh;
-        max-height: 41.6667rem;
-        padding: 1.25rem;
+        height: 90vh; /* Aumentamos la altura para pantallas pequeñas */
+        max-height: none;
+        padding: 0.75rem;
+        margin: 0.5rem 0;
     }
 }
 

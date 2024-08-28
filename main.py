@@ -127,19 +127,38 @@ class GeminiChatbot:
     def get_response(self, question: str, conversation: list):
         csv_answer = self.search_csv(question)
         if csv_answer:
-            response_text = csv_answer
+            response_text = self.format_response(csv_answer)
         else:
             try:
                 response = self.model.generate_content(question)
                 if response.text:
-                    response_text = response.text
+                    response_text = self.format_response(response.text)
                 else:
-                    response_text = "Lo siento, no pude generar una respuesta en este momento."
+                    response_text = "<p>Lo siento, no pude generar una respuesta en este momento.</p>"
             except Exception as e:
-                response_text = f"Error al generar respuesta: {str(e)}"
+                response_text = f"<p>Error al generar respuesta: {str(e)}</p>"
         
         conversation.append((question, response_text))
         return response_text, conversation
+    def format_response(self, text):
+    # Dividir el texto en párrafos
+        paragraphs = text.split('\n')
+        formatted_text = ""
+        for para in paragraphs:
+            if para.strip():
+                if para.startswith("*"):
+                    # Convertir asteriscos en viñetas
+                    formatted_text += f"<li>{para.strip('* ')}</li>"
+                elif para.startswith("**"):
+                    # Convertir doble asterisco en subtítulos
+                    formatted_text += f"<h3>{para.strip('* ')}</h3>"
+                else:
+                    formatted_text += f"<p>{para}</p>"
+        
+        if formatted_text.startswith("<li>"):
+            formatted_text = f"<ul>{formatted_text}</ul>"
+        
+        return formatted_text
 
 @app.route('/')
 def index():

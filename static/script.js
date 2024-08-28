@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.nav-links a, .logo-img').forEach(link => {
         link.addEventListener('click', function(e) {
             const href = this.getAttribute('href');
-            console.log('Clicked link href:', href); // Agregar esto para debuggear
+            console.log('Clicked link href:', href);
             if (href === '/' || href.includes('index')) {
                 return;
             }
@@ -36,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-
 
     // Función para enviar el mensaje
     function sendMessage() {
@@ -52,27 +51,40 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then(response => response.json())
             .then(data => {
-                displayMessage('bot', data.response);
+                displayMessage('bot', data.response, true);  // Pasamos true para indicar que es HTML
             })
             .catch((error) => {
                 console.error('Error:', error);
-                displayMessage('bot', 'Lo siento, ha ocurrido un error.');
+                displayMessage('bot', '<p>Lo siento, ha ocurrido un error.</p>', true);
             });
             userInput.value = '';
         }
     }
 
-    // Función para mostrar los mensajes en el chat
-    function displayMessage(sender, message) {
+    // Función actualizada para mostrar los mensajes en el chat
+    function displayMessage(sender, message, isHtml = false) {
         const messagesContainer = document.getElementById('messages');
         const messageElement = document.createElement('div');
         messageElement.classList.add('message', `${sender}-message`);
         const contentElement = document.createElement('div');
         contentElement.classList.add('message-content');
-        contentElement.textContent = message;
+        if (isHtml) {
+            contentElement.innerHTML = message;
+        } else {
+            contentElement.textContent = message;
+        }
         messageElement.appendChild(contentElement);
         messagesContainer.appendChild(messageElement);
         messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+        // Aplicar animación de entrada
+        messageElement.style.opacity = '0';
+        messageElement.style.transform = 'translateY(20px)';
+        setTimeout(() => {
+            messageElement.style.transition = 'opacity 0.3s ease-out, transform 0.3s ease-out';
+            messageElement.style.opacity = '1';
+            messageElement.style.transform = 'translateY(0)';
+        }, 10);
     }
 
     // Evento para enviar el mensaje al hacer clic en el botón
@@ -89,25 +101,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Evento para mostrar/ocultar el chatbot
-    if (toggleButton) {
-        toggleButton.addEventListener('click', function() {
-            chatbot.style.display = chatbot.style.display === 'none' || chatbot.style.display === '' ? 'block' : 'none';
-            if (chatbot.style.display === 'block') {
+    // Evento para el enlace del chat en el header
+    if (chatLink) {
+        chatLink.addEventListener('click', function(e) {
+            if (this.getAttribute('href') === '#chat') {
+                e.preventDefault();
+                chatbot.style.display = 'block';
                 scrollToSection('chat');
             }
         });
     }
 
-    // Evento para el enlace del chat en el header
-    if (chatLink) {
-        chatLink.addEventListener('click', function(e) {
-            if (this.getAttribute('href') === '#chago') {
-                e.preventDefault();
-                chatbot.style.display = 'block';
-                scrollToSection('chat');
-            }
-            // Si el href no es #chat, permitirá la navegación normal
+    // Evento de click para el botón toggleChatbot
+    if (toggleButton) {
+        toggleButton.addEventListener('click', function() {
+            window.location.href = '/chatgo';
         });
     }
 });
