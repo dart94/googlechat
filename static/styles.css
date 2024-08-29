@@ -36,6 +36,9 @@ header.main-header {
     background-color: var(--background-color);
     padding: 0.9375rem 5%;
     z-index: 1000;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .navbar {
