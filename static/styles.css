@@ -14,7 +14,8 @@ html {
     --text-primary-color: #F0F0F0; 
     --text-secondary-color: #BDBDBD;
     --highlight-color: #FF61D2; 
-    --accent-color: #4CC9F0; 
+    --accent-color: #4CC9F0;
+    --aqua: #3a506b;
 }
 
 
@@ -67,7 +68,7 @@ header.main-header {
 }
 
 .nav-links a:hover {
-    color: var(--secondary-color);
+    color: var(--aqua);
 }
 
 main {
@@ -124,7 +125,7 @@ main {
 
 .features-content h2 {
     font-size: 1.75rem;
-    color: var(--secondary-color);
+    color: var(--aqua);
     margin-bottom: 1.25rem;
     font-weight: 700;
 }
@@ -145,7 +146,7 @@ main {
 
 .features-content li::before {
     content: '•';
-    color: var(--secondary-color);
+    color: var(--aqua);
     font-size: 1.25rem;
     margin-right: 0.625rem;
 }
@@ -161,7 +162,7 @@ main {
 }
 
 .chat-header {
-    background-color: var(--secondary-color);
+    background-color: var(--aqua);
     color: var(--on-surface-color);
     padding: 0.9375rem;
     text-align: center;
@@ -213,13 +214,13 @@ main {
 }
 
 .user-message .message-content {
-    background-color: var(--primary-color);
+    background-color: var(--aqua);
     color: var(--on-surface-color);
 }
 
 .bot-message .message-content {
     background-color: rgba(30, 30, 30, 0.8); /* Hacemos los mensajes del bot semi-transparentes */
-    border: 0.0625rem solid var(--secondary-color);
+    border: 0.0625rem solid var(--aqua);
     color: var(--text-primary-color);
 }
 
@@ -244,7 +245,7 @@ main {
     display: flex;
     padding: 0.75rem;
     background-color: rgba(30, 30, 30, 0.8);
-    border-top: 0.0625rem solid var(--secondary-color);
+    border-top: 0.0625rem solid var(--aqua);
 }
 
 #user_input {
@@ -258,7 +259,7 @@ main {
 }
 
 #send-button {
-    background-color: var(--secondary-color);
+    background-color: var(--aqua);
     color: var(--background-color);
     border: none;
     padding: 0.75rem 1.25rem;
@@ -593,4 +594,40 @@ ul {
     opacity: 1;
     color: #000;
     transform: rotate(-180deg);
+  }
+
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .ball {
+    --size: 16px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 11px;
+    margin: 0 10px;
+    animation: 2s bounce ease infinite;
+  }
+  .blue {
+    background-color: #4285f5;
+  }
+  .red {
+    background-color: #ea4436;
+    animation-delay: 0.25s;
+  }
+  .yellow {
+    background-color: #fbbd06;
+    animation-delay: 0.5s;
+  }
+  .green {
+    background-color: #34a952;
+    animation-delay: 0.75s;
+  }
+  @keyframes bounce {
+    50% {
+      transform: translateY(25px);
+    }
   }

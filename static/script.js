@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const toggleButton = document.getElementById('toggleChatbot');
     const chatbot = document.getElementById('chatbot');
     const chatLink = document.getElementById('chatLink');
+    const loadingIndicator = document.getElementById('loading-indicator');
 
     // Función para el desplazamiento suave
     function scrollToSection(sectionId) {
@@ -37,11 +38,24 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Función para mostrar el indicador de carga
+    function showLoadingIndicator() {
+        loadingIndicator.style.display = 'flex';
+        const messagesContainer = document.getElementById('messages');
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }
+
+    // Función para ocultar el indicador de carga
+    function hideLoadingIndicator() {
+        loadingIndicator.style.display = 'none';
+    }
+
     // Función para enviar el mensaje
     function sendMessage() {
         const message = userInput.value.trim();
         if (message) {
             displayMessage('user', message);
+            showLoadingIndicator();
             fetch('/chat', {
                 method: 'POST',
                 headers: {
@@ -51,10 +65,12 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then(response => response.json())
             .then(data => {
-                displayMessage('bot', data.response, true);  // Pasamos true para indicar que es HTML
+                hideLoadingIndicator();
+                displayMessage('bot', data.response, true);
             })
             .catch((error) => {
                 console.error('Error:', error);
+                hideLoadingIndicator();
                 displayMessage('bot', '<p>Lo siento, ha ocurrido un error.</p>', true);
             });
             userInput.value = '';
