@@ -6,17 +6,16 @@ html {
 }
 
 :root {
-    --primary-color: #9D4EDD; 
-    --secondary-color: #C77DFF; 
-    --background-color: #0d1b2a; 
-    --surface-color: rgba(25, 25, 25, 0.8); 
-    --on-surface-color: #FFFFFF;
-    --text-primary-color: #F0F0F0; 
-    --text-secondary-color: #BDBDBD;
-    --highlight-color: #FF61D2; 
-    --accent-color: #4CC9F0;
-    --aqua: #3a506b;
+    --primary-color: #4A90E2;  /* Un azul vibrante */
+    --secondary-color: #50E3C2;  /* Un verde azulado fresco */
+    --background-color: #F5F7FA;  /* Un gris muy claro para el fondo */
+    --text-color: #333333;  /* Gris oscuro para el texto principal */
+    --light-text-color: #FFFFFF;  /* Blanco para texto sobre fondos oscuros */
+    --input-background: #FFFFFF;  /* Blanco para el fondo del input */
+    --chat-background: #FFFFFF;  /* Blanco para el fondo del chat */
+    --message-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Sombra sutil para los mensajes */
 }
+
 
 
 body {
@@ -153,29 +152,32 @@ main {
 
 .chat-container {
     width: 100%;
-    background-color: rgba(30, 30, 30, 0.6);   border-radius: 0.9375rem;
+    background-color: var(--chat-background);
+    border-radius: 1rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .chat-header {
-    background-color: var(--aqua);
-    color: var(--on-surface-color);
-    padding: 0.9375rem;
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    padding: 1rem;
     text-align: center;
     font-size: 1.4rem;
+    font-weight: bold;
 }
 
 #messages {
     flex-grow: 1;
     overflow-y: auto;
-    padding: 0.9375rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.1rem;
+    background-color: var(--background-color);
 }
 
 #messages::-webkit-scrollbar {
@@ -183,17 +185,16 @@ main {
 }
 
 #messages::-webkit-scrollbar-track {
-    background: rgba(30, 30, 30, 0.3);
+    background: var(--background-color);
 }
 
 #messages::-webkit-scrollbar-thumb {
-    background-color: rgba(138, 43, 226, 0.8); 
+    background-color: var(--primary-color);
     border-radius: 0.25rem;
-    border: 0.1875rem solid var(--surface-color);
 }
 
 .message {
-    margin-bottom: 0.9375rem;
+    margin-bottom: 1rem;
     line-height: 1.4;
 }
 
@@ -207,28 +208,27 @@ main {
 
 .message-content {
     display: inline-block;
-    padding: 0.625rem 0.9375rem;
-    border-radius: 0.9375rem;
+    padding: 0.75rem 1rem;
+    border-radius: 1rem;
     max-width: 80%;
     word-wrap: break-word;
+    box-shadow: var(--message-shadow);
 }
 
 .user-message .message-content {
-    background-color: var(--aqua);
-    color: var(--on-surface-color);
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
 }
 
 .bot-message .message-content {
-    background-color: rgba(30, 30, 30, 0.8); /* Hacemos los mensajes del bot semi-transparentes */
-    border: 0.0625rem solid var(--aqua);
-    color: var(--text-primary-color);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
-
 
 .bot-message h3 {
     margin-top: 10px;
     margin-bottom: 5px;
-    color: #333;
+    color: var(--text-color);
 }
 
 .bot-message ul {
@@ -243,24 +243,26 @@ main {
 
 .input-area {
     display: flex;
-    padding: 0.75rem;
-    background-color: rgba(30, 30, 30, 0.8);
-    border-top: 0.0625rem solid var(--aqua);
+    padding: 1rem;
+    background-color: var(--chat-background);
+    border-top: 1px solid var(--background-color);
+    border-radius: 0.9375rem;
+    margin-top: .5rem;
 }
 
 #user_input {
     flex-grow: 1;
     padding: 0.75rem;
-    border: none;
+    border: 1px solid var(--primary-color);
     border-radius: 1.25rem;
     font-size: 0.875rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: var(--text-primary-color);
+    background-color: var(--input-background);
+    color: var(--text-color);
 }
 
 #send-button {
-    background-color: var(--aqua);
-    color: var(--background-color);
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
     border: none;
     padding: 0.75rem 1.25rem;
     margin-left: 0.625rem;
@@ -272,7 +274,7 @@ main {
 }
 
 #send-button:hover {
-    background-color: var(--on-surface-color);
+    background-color: var(--secondary-color);
     transform: scale(1.05);
 }
 
@@ -631,3 +633,47 @@ ul {
       transform: translateY(25px);
     }
   }
+
+
+
+  .gallery-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.gallery {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;  /* 100% * number of images */
+}
+
+.gallery img {
+    width: 33.333%;  /* 100% / number of images */
+    height: auto;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    33.33% {
+        transform: translateX(-33.33%);
+    }
+    66.66% {
+        transform: translateX(-66.66%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.gallery {
+    animation: slide 15s infinite;
+}
+
+.gallery:hover {
+    animation-play-state: paused;
+}
